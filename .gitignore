@@ -7,3 +7,13 @@
 *.cmx
 *.cmxs
 *.cmxa
+*~
+_server
+_client
+_deps
+_build
+test_data
+#*#
+.*
+local
+resources   
