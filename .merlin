@@ -1,0 +1,4 @@
+PKG eliom.server cairo2 eliom.client oUnit
+EXT lwt
+B _client
+B _server

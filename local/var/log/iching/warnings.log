@@ -1,0 +1,768 @@
+Dec  2 09:54:32: main: Command pipe created
+Dec  2 09:54:32: main: Initializing Ocsipersist-dbm...
+Dec  2 09:54:32: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 09:54:33: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 09:54:34: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 09:54:34: main: Ocsigen has been launched (initialisations ok)
+Dec  2 09:59:03: main: Initializing Ocsipersist-dbm...
+Dec  2 09:59:03: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 09:59:04: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 09:59:04: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 09:59:04: main: Ocsigen has been launched (initialisations ok)
+Dec  2 17:33:10: main: Initializing Ocsipersist-dbm...
+Dec  2 17:33:10: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 17:33:11: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 17:33:11: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 17:43:37: main: Initializing Ocsipersist-dbm...
+Dec  2 17:43:37: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 17:43:38: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 17:43:38: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 17:43:38: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:26:12: main: Initializing Ocsipersist-dbm...
+Dec  2 18:26:12: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:26:13: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:26:13: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:26:13: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:27:40: main: Initializing Ocsipersist-dbm...
+Dec  2 18:27:40: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:27:41: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:27:41: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:27:41: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:30:30: main: Initializing Ocsipersist-dbm...
+Dec  2 18:30:30: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:30:31: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:30:31: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:30:31: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:49:17: main: Initializing Ocsipersist-dbm...
+Dec  2 18:49:17: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:49:19: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:49:19: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:49:19: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:54:34: main: Initializing Ocsipersist-dbm...
+Dec  2 18:54:34: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:54:35: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:54:35: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:54:35: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:55:44: main: Initializing Ocsipersist-dbm...
+Dec  2 18:55:44: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:55:45: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:55:45: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:55:45: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:56:38: main: Initializing Ocsipersist-dbm...
+Dec  2 18:56:38: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:56:40: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:56:40: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:56:40: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:57:05: main: Initializing Ocsipersist-dbm...
+Dec  2 18:57:05: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:57:06: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:57:06: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:57:06: main: Ocsigen has been launched (initialisations ok)
+Dec  2 18:57:33: main: Initializing Ocsipersist-dbm...
+Dec  2 18:57:33: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 18:57:34: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 18:57:34: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 18:57:34: main: Ocsigen has been launched (initialisations ok)
+Dec  2 20:23:44: main: Initializing Ocsipersist-dbm...
+Dec  2 20:23:44: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 20:23:46: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 20:23:46: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 20:23:46: main: Ocsigen has been launched (initialisations ok)
+Dec  2 20:33:28: main: Initializing Ocsipersist-dbm...
+Dec  2 20:33:28: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 20:33:29: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 20:33:29: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 20:33:29: main: Ocsigen has been launched (initialisations ok)
+Dec  2 20:43:46: main: Initializing Ocsipersist-dbm...
+Dec  2 20:43:46: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 20:43:47: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 20:43:47: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 20:43:47: main: Ocsigen has been launched (initialisations ok)
+Dec  2 21:01:43: main: Initializing Ocsipersist-dbm...
+Dec  2 21:01:43: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  2 21:01:44: main: ...Initialization of Ocsipersist-dbm complete
+Dec  2 21:01:44: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  2 21:01:44: main: Ocsigen has been launched (initialisations ok)
+Dec  4 09:05:49: main: Initializing Ocsipersist-dbm...
+Dec  4 09:05:49: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 09:05:50: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 09:05:50: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 09:05:50: main: Ocsigen has been launched (initialisations ok)
+Dec  4 09:25:21: main: Initializing Ocsipersist-dbm...
+Dec  4 09:25:21: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 09:25:22: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 09:25:22: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 09:25:22: main: Ocsigen has been launched (initialisations ok)
+Dec  4 09:29:20: main: Initializing Ocsipersist-dbm...
+Dec  4 09:29:20: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 09:29:21: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 09:29:21: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 09:29:21: main: Ocsigen has been launched (initialisations ok)
+Dec  4 10:05:28: main: Initializing Ocsipersist-dbm...
+Dec  4 10:05:28: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 10:05:29: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 10:05:29: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 10:05:29: main: Ocsigen has been launched (initialisations ok)
+Dec  4 10:07:00: main: Initializing Ocsipersist-dbm...
+Dec  4 10:07:00: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 10:07:01: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 10:07:01: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 10:07:01: main: Ocsigen has been launched (initialisations ok)
+Dec  4 10:29:18: main: Initializing Ocsipersist-dbm...
+Dec  4 10:29:18: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 10:29:19: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 10:29:19: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 10:29:19: main: Ocsigen has been launched (initialisations ok)
+Dec  4 10:31:17: main: Initializing Ocsipersist-dbm...
+Dec  4 10:31:17: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 10:31:18: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 10:31:18: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 10:31:18: main: Ocsigen has been launched (initialisations ok)
+Dec  4 10:32:47: main: Initializing Ocsipersist-dbm...
+Dec  4 10:32:47: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 10:32:48: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 10:32:48: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 10:32:48: main: Ocsigen has been launched (initialisations ok)
+Dec  4 10:33:58: main: Initializing Ocsipersist-dbm...
+Dec  4 10:33:58: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 10:33:59: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 10:33:59: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 10:33:59: main: Ocsigen has been launched (initialisations ok)
+Dec  4 12:58:50: main: Initializing Ocsipersist-dbm...
+Dec  4 12:58:50: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 12:58:51: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 12:58:52: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 12:58:52: main: Ocsigen has been launched (initialisations ok)
+Dec  4 13:12:53: main: Initializing Ocsipersist-dbm...
+Dec  4 13:12:53: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 13:12:54: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 13:12:54: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 13:12:54: main: Ocsigen has been launched (initialisations ok)
+Dec  4 13:57:30: main: Initializing Ocsipersist-dbm...
+Dec  4 13:57:30: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 13:57:31: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 13:57:32: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 13:57:32: main: Ocsigen has been launched (initialisations ok)
+Dec  4 14:05:12: main: Initializing Ocsipersist-dbm...
+Dec  4 14:05:12: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 14:05:13: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 14:05:13: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 14:05:13: main: Ocsigen has been launched (initialisations ok)
+Dec  4 14:48:09: main: Initializing Ocsipersist-dbm...
+Dec  4 14:48:09: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 14:48:10: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 14:48:10: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 14:48:10: main: Ocsigen has been launched (initialisations ok)
+Dec  4 15:02:23: main: Initializing Ocsipersist-dbm...
+Dec  4 15:02:23: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 15:02:24: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 15:02:24: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 15:02:24: main: Ocsigen has been launched (initialisations ok)
+Dec  4 15:58:44: main: Initializing Ocsipersist-dbm...
+Dec  4 15:58:45: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 15:58:46: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 15:58:47: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 15:58:47: main: Ocsigen has been launched (initialisations ok)
+Dec  4 16:01:23: main: Initializing Ocsipersist-dbm...
+Dec  4 16:01:23: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 16:01:24: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 16:01:24: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 16:01:24: main: Ocsigen has been launched (initialisations ok)
+Dec  4 16:19:39: main: Initializing Ocsipersist-dbm...
+Dec  4 16:19:39: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 16:19:40: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 16:19:42: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 16:19:42: main: Ocsigen has been launched (initialisations ok)
+Dec  4 17:07:15: main: Initializing Ocsipersist-dbm...
+Dec  4 17:07:15: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 17:07:16: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 17:07:17: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 17:07:17: main: Ocsigen has been launched (initialisations ok)
+Dec  4 17:08:21: main: Initializing Ocsipersist-dbm...
+Dec  4 17:08:21: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 17:08:22: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 17:08:22: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 17:08:22: main: Ocsigen has been launched (initialisations ok)
+Dec  4 17:09:58: main: Initializing Ocsipersist-dbm...
+Dec  4 17:09:58: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  4 17:09:59: main: ...Initialization of Ocsipersist-dbm complete
+Dec  4 17:09:59: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  4 17:09:59: main: Ocsigen has been launched (initialisations ok)
+Dec  5 11:48:05: main: Initializing Ocsipersist-dbm...
+Dec  5 11:48:05: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  5 11:48:06: main: ...Initialization of Ocsipersist-dbm complete
+Dec  5 11:48:06: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  5 11:48:06: main: Ocsigen has been launched (initialisations ok)
+Dec  5 11:57:43: main: Initializing Ocsipersist-dbm...
+Dec  5 11:57:43: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  5 11:57:44: main: ...Initialization of Ocsipersist-dbm complete
+Dec  5 11:57:44: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  5 11:57:44: main: Ocsigen has been launched (initialisations ok)
+Dec  5 13:49:11: main: Initializing Ocsipersist-dbm...
+Dec  5 13:49:11: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  5 13:49:12: main: ...Initialization of Ocsipersist-dbm complete
+Dec  5 13:49:12: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  5 13:49:12: main: Ocsigen has been launched (initialisations ok)
+Dec  5 13:50:34: main: Initializing Ocsipersist-dbm...
+Dec  5 13:50:34: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  5 13:50:35: main: ...Initialization of Ocsipersist-dbm complete
+Dec  5 13:50:35: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  5 13:50:35: main: Ocsigen has been launched (initialisations ok)
+Dec  6 08:33:17: main: Initializing Ocsipersist-dbm...
+Dec  6 08:33:17: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 08:33:18: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 08:33:18: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 08:33:18: main: Ocsigen has been launched (initialisations ok)
+Dec  6 08:37:44: main: Initializing Ocsipersist-dbm...
+Dec  6 08:37:44: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 08:37:45: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 08:37:45: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 08:37:45: main: Ocsigen has been launched (initialisations ok)
+Dec  6 09:13:31: main: Initializing Ocsipersist-dbm...
+Dec  6 09:13:31: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 09:13:32: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 09:13:32: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 09:13:32: main: Ocsigen has been launched (initialisations ok)
+Dec  6 09:31:08: main: Initializing Ocsipersist-dbm...
+Dec  6 09:31:08: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 09:31:10: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 09:31:10: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 09:31:10: main: Ocsigen has been launched (initialisations ok)
+Dec  6 11:26:33: main: Initializing Ocsipersist-dbm...
+Dec  6 11:26:33: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 11:26:34: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 11:26:35: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 11:26:35: main: Ocsigen has been launched (initialisations ok)
+Dec  6 13:20:29: main: Initializing Ocsipersist-dbm...
+Dec  6 13:20:29: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 13:20:30: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 13:20:30: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 13:20:30: main: Ocsigen has been launched (initialisations ok)
+Dec  6 13:25:18: main: Initializing Ocsipersist-dbm...
+Dec  6 13:25:18: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 13:25:19: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 13:25:19: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 13:25:19: main: Ocsigen has been launched (initialisations ok)
+Dec  6 13:30:50: main: Initializing Ocsipersist-dbm...
+Dec  6 13:30:50: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 13:30:51: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 13:30:51: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 13:30:51: main: Ocsigen has been launched (initialisations ok)
+Dec  6 14:30:41: main: Initializing Ocsipersist-dbm...
+Dec  6 14:30:41: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 14:30:42: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 14:30:42: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 14:30:42: main: Ocsigen has been launched (initialisations ok)
+Dec  6 15:14:10: main: Initializing Ocsipersist-dbm...
+Dec  6 15:14:10: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 15:14:11: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 15:14:11: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 15:14:11: main: Ocsigen has been launched (initialisations ok)
+Dec  6 15:25:41: main: Initializing Ocsipersist-dbm...
+Dec  6 15:25:41: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 15:25:43: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 15:25:43: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 15:25:43: main: Ocsigen has been launched (initialisations ok)
+Dec  6 15:45:52: main: Initializing Ocsipersist-dbm...
+Dec  6 15:45:52: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 15:45:53: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 15:45:53: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 15:45:53: main: Ocsigen has been launched (initialisations ok)
+Dec  6 16:10:51: main: Initializing Ocsipersist-dbm...
+Dec  6 16:10:51: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 16:10:52: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 16:10:53: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 16:10:53: main: Ocsigen has been launched (initialisations ok)
+Dec  6 17:15:03: main: Initializing Ocsipersist-dbm...
+Dec  6 17:15:03: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 17:15:04: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 17:15:04: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 17:15:04: main: Ocsigen has been launched (initialisations ok)
+Dec  6 17:35:39: main: Initializing Ocsipersist-dbm...
+Dec  6 17:35:39: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 17:35:40: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 17:35:41: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 17:35:41: main: Ocsigen has been launched (initialisations ok)
+Dec  6 18:09:29: main: Initializing Ocsipersist-dbm...
+Dec  6 18:09:29: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 18:09:30: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 18:09:30: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 18:09:30: main: Ocsigen has been launched (initialisations ok)
+Dec  6 18:18:27: main: Initializing Ocsipersist-dbm...
+Dec  6 18:18:27: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  6 18:18:28: main: ...Initialization of Ocsipersist-dbm complete
+Dec  6 18:18:28: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  6 18:18:28: main: Ocsigen has been launched (initialisations ok)
+Dec  7 09:09:44: main: Initializing Ocsipersist-dbm...
+Dec  7 09:09:44: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 09:09:45: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 09:09:45: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 09:13:01: main: Initializing Ocsipersist-dbm...
+Dec  7 09:13:01: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 09:13:02: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 09:13:02: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 09:13:02: main: Ocsigen has been launched (initialisations ok)
+Dec  7 09:13:17: main: Exn during page generation: GettextTypes.GettextUninitialized (sending 500)
+Dec  7 09:40:14: main: Initializing Ocsipersist-dbm...
+Dec  7 09:40:14: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 09:40:15: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 09:40:15: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 09:40:15: main: Ocsigen has been launched (initialisations ok)
+Dec  7 10:06:40: main: Initializing Ocsipersist-dbm...
+Dec  7 10:06:40: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 10:06:41: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 10:06:42: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 10:06:42: main: Ocsigen has been launched (initialisations ok)
+Dec  7 10:10:51: main: Initializing Ocsipersist-dbm...
+Dec  7 10:10:51: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 10:10:52: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 10:10:52: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 10:10:52: main: Ocsigen has been launched (initialisations ok)
+Dec  7 19:03:53: main: Initializing Ocsipersist-dbm...
+Dec  7 19:03:53: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 19:03:54: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 19:03:54: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 19:03:54: main: Ocsigen has been launched (initialisations ok)
+Dec  7 19:13:48: main: Initializing Ocsipersist-dbm...
+Dec  7 19:13:48: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 19:13:49: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 19:13:49: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 19:13:49: main: Ocsigen has been launched (initialisations ok)
+Dec  7 19:14:58: main: Initializing Ocsipersist-dbm...
+Dec  7 19:14:58: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 19:14:59: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 19:15:00: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 19:15:00: main: Ocsigen has been launched (initialisations ok)
+Dec  7 20:22:01: main: Initializing Ocsipersist-dbm...
+Dec  7 20:22:01: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 20:22:02: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 20:22:02: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 20:22:02: main: Ocsigen has been launched (initialisations ok)
+Dec  7 20:28:56: main: Initializing Ocsipersist-dbm...
+Dec  7 20:28:56: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 20:28:57: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 20:28:57: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 20:28:57: main: Ocsigen has been launched (initialisations ok)
+Dec  7 20:43:17: main: Initializing Ocsipersist-dbm...
+Dec  7 20:43:17: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 20:43:18: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 20:43:18: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 20:43:18: main: Ocsigen has been launched (initialisations ok)
+Dec  7 21:14:04: main: Initializing Ocsipersist-dbm...
+Dec  7 21:14:04: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 21:14:05: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 21:14:05: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 21:14:05: main: Ocsigen has been launched (initialisations ok)
+Dec  7 21:15:12: main: Initializing Ocsipersist-dbm...
+Dec  7 21:15:12: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 21:15:13: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 21:15:13: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 21:15:13: main: Ocsigen has been launched (initialisations ok)
+Dec  7 21:21:18: main: Initializing Ocsipersist-dbm...
+Dec  7 21:21:18: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 21:21:19: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 21:21:19: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 21:21:19: main: Ocsigen has been launched (initialisations ok)
+Dec  7 21:24:07: main: Initializing Ocsipersist-dbm...
+Dec  7 21:24:07: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 21:24:08: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 21:24:08: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 21:24:08: main: Ocsigen has been launched (initialisations ok)
+Dec  7 21:42:41: main: Initializing Ocsipersist-dbm...
+Dec  7 21:42:41: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 21:42:42: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 21:42:42: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 21:42:42: main: Ocsigen has been launched (initialisations ok)
+Dec  7 21:42:52: main: Initializing Ocsipersist-dbm...
+Dec  7 21:42:52: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  7 21:42:53: main: ...Initialization of Ocsipersist-dbm complete
+Dec  7 21:42:53: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  7 21:42:53: main: Ocsigen has been launched (initialisations ok)
+Dec  8 11:14:08: main: Initializing Ocsipersist-dbm...
+Dec  8 11:14:08: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  8 11:14:10: main: ...Initialization of Ocsipersist-dbm complete
+Dec  8 11:14:10: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  8 11:14:10: main: Ocsigen has been launched (initialisations ok)
+Dec  8 11:21:48: main: Initializing Ocsipersist-dbm...
+Dec  8 11:21:48: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  8 11:21:49: main: ...Initialization of Ocsipersist-dbm complete
+Dec  8 11:21:49: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  8 11:21:49: main: Ocsigen has been launched (initialisations ok)
+Dec  8 11:45:42: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:46: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:47: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:47: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:47: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:48: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:48: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:49: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:49: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:45:49: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:06: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:07: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:07: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:07: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:08: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:08: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:08: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:08: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:09: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:10: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:10: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:17: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:20: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:20: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:46:21: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:48:47: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:48:58: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:49:52: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:49:54: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:49:54: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:49:55: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:49:55: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:49:56: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 11:50:02: main: Exn during page generation: Failure("Invalid Parameter") (sending 500)
+Dec  8 16:26:47: main: Initializing Ocsipersist-dbm...
+Dec  8 16:26:47: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  8 16:26:48: main: ...Initialization of Ocsipersist-dbm complete
+Dec  8 16:26:48: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  8 16:26:48: main: Ocsigen has been launched (initialisations ok)
+Dec  9 11:27:54: main: Initializing Ocsipersist-dbm...
+Dec  9 11:27:54: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  9 11:27:55: main: ...Initialization of Ocsipersist-dbm complete
+Dec  9 11:27:55: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  9 11:29:28: main: Initializing Ocsipersist-dbm...
+Dec  9 11:29:28: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  9 11:29:29: main: ...Initialization of Ocsipersist-dbm complete
+Dec  9 11:29:29: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  9 11:30:47: main: Initializing Ocsipersist-dbm...
+Dec  9 11:30:47: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  9 11:30:48: main: ...Initialization of Ocsipersist-dbm complete
+Dec  9 11:30:48: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  9 11:30:48: main: Ocsigen has been launched (initialisations ok)
+Dec  9 17:27:37: main: Initializing Ocsipersist-dbm...
+Dec  9 17:27:37: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  9 17:27:38: main: ...Initialization of Ocsipersist-dbm complete
+Dec  9 17:27:38: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  9 17:27:38: main: Ocsigen has been launched (initialisations ok)
+Dec  9 17:30:58: main: Initializing Ocsipersist-dbm...
+Dec  9 17:30:58: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec  9 17:30:59: main: ...Initialization of Ocsipersist-dbm complete
+Dec  9 17:31:00: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec  9 17:31:00: main: Ocsigen has been launched (initialisations ok)
+Dec 10 11:04:01: main: Initializing Ocsipersist-dbm...
+Dec 10 11:04:01: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 10 11:04:02: main: ...Initialization of Ocsipersist-dbm complete
+Dec 10 11:04:02: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 10 11:21:30: main: Initializing Ocsipersist-dbm...
+Dec 10 11:21:30: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 10 11:21:32: main: ...Initialization of Ocsipersist-dbm complete
+Dec 10 11:21:32: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 10 11:21:32: main: Ocsigen has been launched (initialisations ok)
+Dec 11 10:15:29: main: Initializing Ocsipersist-dbm...
+Dec 11 10:15:29: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 11 10:15:30: main: ...Initialization of Ocsipersist-dbm complete
+Dec 11 10:15:31: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 11 10:15:31: main: Ocsigen has been launched (initialisations ok)
+Dec 11 10:25:42: main: Initializing Ocsipersist-dbm...
+Dec 11 10:25:42: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 11 10:25:43: main: ...Initialization of Ocsipersist-dbm complete
+Dec 11 10:25:43: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 11 10:25:43: main: Ocsigen has been launched (initialisations ok)
+Dec 11 10:30:27: main: Initializing Ocsipersist-dbm...
+Dec 11 10:30:27: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 11 10:30:28: main: ...Initialization of Ocsipersist-dbm complete
+Dec 11 10:30:28: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 11 10:30:28: main: Ocsigen has been launched (initialisations ok)
+Dec 11 12:30:36: main: Initializing Ocsipersist-dbm...
+Dec 11 12:30:36: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 11 12:30:37: main: ...Initialization of Ocsipersist-dbm complete
+Dec 11 12:30:37: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 11 12:30:37: main: Ocsigen has been launched (initialisations ok)
+Dec 11 15:40:22: main: Initializing Ocsipersist-dbm...
+Dec 11 15:40:22: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 11 15:40:23: main: ...Initialization of Ocsipersist-dbm complete
+Dec 11 15:40:23: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 11 15:40:23: main: Ocsigen has been launched (initialisations ok)
+Dec 11 15:42:54: main: Initializing Ocsipersist-dbm...
+Dec 11 15:42:54: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 11 15:42:55: main: ...Initialization of Ocsipersist-dbm complete
+Dec 11 15:42:55: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 11 15:42:55: main: Ocsigen has been launched (initialisations ok)
+Dec 11 15:54:02: main: Initializing Ocsipersist-dbm...
+Dec 11 15:54:02: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 11 15:54:03: main: ...Initialization of Ocsipersist-dbm complete
+Dec 11 15:54:03: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 11 15:54:03: main: Ocsigen has been launched (initialisations ok)
+Dec 12 13:09:57: main: Initializing Ocsipersist-dbm...
+Dec 12 13:09:57: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 12 13:09:59: main: ...Initialization of Ocsipersist-dbm complete
+Dec 12 13:09:59: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 12 13:09:59: main: Ocsigen has been launched (initialisations ok)
+Dec 13 08:52:19: main: Initializing Ocsipersist-dbm...
+Dec 13 08:52:19: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 13 08:52:20: main: ...Initialization of Ocsipersist-dbm complete
+Dec 13 08:52:20: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 13 08:53:49: main: Initializing Ocsipersist-dbm...
+Dec 13 08:53:49: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 13 08:53:50: main: ...Initialization of Ocsipersist-dbm complete
+Dec 13 08:53:50: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 13 08:54:16: main: Initializing Ocsipersist-dbm...
+Dec 13 08:54:16: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 13 08:54:17: main: ...Initialization of Ocsipersist-dbm complete
+Dec 13 08:54:18: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 13 08:54:18: main: Ocsigen has been launched (initialisations ok)
+Dec 13 23:02:40: main: Initializing Ocsipersist-dbm...
+Dec 13 23:02:40: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 13 23:02:41: main: ...Initialization of Ocsipersist-dbm complete
+Dec 13 23:02:41: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 13 23:02:41: main: Ocsigen has been launched (initialisations ok)
+Dec 14 11:32:56: main: Initializing Ocsipersist-dbm...
+Dec 14 11:32:56: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 14 11:32:57: main: ...Initialization of Ocsipersist-dbm complete
+Dec 14 11:32:57: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 14 11:34:03: main: Initializing Ocsipersist-dbm...
+Dec 14 11:34:03: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 14 11:34:04: main: ...Initialization of Ocsipersist-dbm complete
+Dec 14 11:34:04: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 14 11:34:04: main: Ocsigen has been launched (initialisations ok)
+Dec 14 11:48:07: main: Initializing Ocsipersist-dbm...
+Dec 14 11:48:07: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 14 11:48:09: main: ...Initialization of Ocsipersist-dbm complete
+Dec 14 11:48:09: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 14 11:48:09: main: Ocsigen has been launched (initialisations ok)
+Dec 14 12:08:20: main: Initializing Ocsipersist-dbm...
+Dec 14 12:08:20: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 14 12:08:21: main: ...Initialization of Ocsipersist-dbm complete
+Dec 14 12:08:21: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 14 12:08:21: main: Ocsigen has been launched (initialisations ok)
+Dec 14 12:11:10: main: Initializing Ocsipersist-dbm...
+Dec 14 12:11:10: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm.opt on directory local/var/data/iching/ocsipersist.
+Dec 14 12:11:11: main: ...Initialization of Ocsipersist-dbm complete
+Dec 14 12:11:12: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 14 12:12:00: main: Initializing Ocsipersist-dbm...
+Dec 14 12:12:00: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm.opt on directory local/var/data/iching/ocsipersist.
+Dec 14 12:12:02: main: ...Initialization of Ocsipersist-dbm complete
+Dec 14 12:12:02: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 14 12:12:02: main: Ocsigen has been launched (initialisations ok)
+Dec 15 12:59:25: main: Initializing Ocsipersist-dbm...
+Dec 15 12:59:25: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm.opt on directory local/var/data/iching/ocsipersist.
+Dec 15 12:59:26: main: ...Initialization of Ocsipersist-dbm complete
+Dec 15 12:59:26: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 15 12:59:26: main: Ocsigen has been launched (initialisations ok)
+Dec 15 13:00:50: main: Initializing Ocsipersist-dbm...
+Dec 15 13:00:50: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 15 13:00:51: main: ...Initialization of Ocsipersist-dbm complete
+Dec 15 13:00:51: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 15 13:00:51: main: Ocsigen has been launched (initialisations ok)
+Dec 15 13:03:01: main: Initializing Ocsipersist-dbm...
+Dec 15 13:03:01: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 15 13:03:02: main: ...Initialization of Ocsipersist-dbm complete
+Dec 15 13:03:02: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 15 13:03:02: main: Ocsigen has been launched (initialisations ok)
+Dec 15 13:05:12: main: Initializing Ocsipersist-dbm...
+Dec 15 13:05:12: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 15 13:05:14: main: ...Initialization of Ocsipersist-dbm complete
+Dec 15 13:05:14: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 15 13:05:14: main: Ocsigen has been launched (initialisations ok)
+Dec 16 13:54:46: main: Initializing Ocsipersist-dbm...
+Dec 16 13:54:46: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 16 13:54:47: main: ...Initialization of Ocsipersist-dbm complete
+Dec 16 13:54:47: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 16 13:54:47: main: Ocsigen has been launched (initialisations ok)
+Dec 16 16:44:36: main: Initializing Ocsipersist-dbm...
+Dec 16 16:44:36: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 16 16:44:37: main: ...Initialization of Ocsipersist-dbm complete
+Dec 16 16:44:37: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 16 16:44:37: main: Ocsigen has been launched (initialisations ok)
+Dec 16 17:07:07: main: Initializing Ocsipersist-dbm...
+Dec 16 17:07:07: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 16 17:07:08: main: ...Initialization of Ocsipersist-dbm complete
+Dec 16 17:07:09: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 16 17:07:09: main: Ocsigen has been launched (initialisations ok)
+Dec 17 09:54:56: main: Initializing Ocsipersist-dbm...
+Dec 17 09:54:56: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 17 09:54:57: main: ...Initialization of Ocsipersist-dbm complete
+Dec 17 09:54:57: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 17 09:54:57: main: Ocsigen has been launched (initialisations ok)
+Dec 17 10:52:26: main: Initializing Ocsipersist-dbm...
+Dec 17 10:52:26: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 17 10:52:27: main: ...Initialization of Ocsipersist-dbm complete
+Dec 17 10:52:27: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 17 10:52:27: main: Ocsigen has been launched (initialisations ok)
+Dec 17 11:38:03: main: Initializing Ocsipersist-dbm...
+Dec 17 11:38:03: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 17 11:38:04: main: ...Initialization of Ocsipersist-dbm complete
+Dec 17 11:38:04: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 17 11:38:04: main: Ocsigen has been launched (initialisations ok)
+Dec 17 17:18:54: main: Initializing Ocsipersist-dbm...
+Dec 17 17:18:54: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 17 17:18:55: main: ...Initialization of Ocsipersist-dbm complete
+Dec 17 17:18:55: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 17 17:18:55: main: Ocsigen has been launched (initialisations ok)
+Dec 17 17:19:38: main: Initializing Ocsipersist-dbm...
+Dec 17 17:19:38: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 17 17:19:39: main: ...Initialization of Ocsipersist-dbm complete
+Dec 17 17:19:39: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 17 17:19:39: main: Ocsigen has been launched (initialisations ok)
+Dec 17 17:47:28: main: Initializing Ocsipersist-dbm...
+Dec 17 17:47:28: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 17 17:47:29: main: ...Initialization of Ocsipersist-dbm complete
+Dec 17 17:47:29: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 17 17:47:29: main: Ocsigen has been launched (initialisations ok)
+Dec 18 13:16:16: main: Initializing Ocsipersist-dbm...
+Dec 18 13:16:16: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 18 13:16:17: main: ...Initialization of Ocsipersist-dbm complete
+Dec 18 13:16:18: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 18 13:16:18: main: Ocsigen has been launched (initialisations ok)
+Dec 18 13:50:39: main: Initializing Ocsipersist-dbm...
+Dec 18 13:50:39: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 18 13:50:40: main: ...Initialization of Ocsipersist-dbm complete
+Dec 18 13:50:40: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 18 13:50:40: main: Ocsigen has been launched (initialisations ok)
+Dec 18 15:57:40: main: Initializing Ocsipersist-dbm...
+Dec 18 15:57:40: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 18 15:57:41: main: ...Initialization of Ocsipersist-dbm complete
+Dec 18 15:57:42: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 18 15:57:42: main: Ocsigen has been launched (initialisations ok)
+Dec 19 09:52:51: main: Initializing Ocsipersist-dbm...
+Dec 19 09:52:51: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 19 09:52:53: main: ...Initialization of Ocsipersist-dbm complete
+Dec 19 09:52:53: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 19 09:52:53: main: Ocsigen has been launched (initialisations ok)
+Dec 19 12:20:04: main: Initializing Ocsipersist-dbm...
+Dec 19 12:20:04: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 19 12:20:05: main: ...Initialization of Ocsipersist-dbm complete
+Dec 19 12:20:05: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 19 12:20:05: main: Ocsigen has been launched (initialisations ok)
+Dec 19 12:23:18: main: Initializing Ocsipersist-dbm...
+Dec 19 12:23:18: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 19 12:23:19: main: ...Initialization of Ocsipersist-dbm complete
+Dec 19 12:23:19: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 19 12:23:19: main: Ocsigen has been launched (initialisations ok)
+Dec 19 17:01:03: main: Initializing Ocsipersist-dbm...
+Dec 19 17:01:03: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 19 17:01:04: main: ...Initialization of Ocsipersist-dbm complete
+Dec 19 17:01:04: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 19 17:01:04: main: Ocsigen has been launched (initialisations ok)
+Dec 20 09:31:33: main: Initializing Ocsipersist-dbm...
+Dec 20 09:31:33: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 09:31:34: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 09:31:34: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 09:31:34: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:17:20: main: Initializing Ocsipersist-dbm...
+Dec 20 11:17:20: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:17:21: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:17:22: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:17:22: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:19:28: main: Initializing Ocsipersist-dbm...
+Dec 20 11:19:28: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:19:29: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:19:30: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:19:30: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:19:45: main: Exn during page generation: Not_found (sending 500)
+Dec 20 11:24:58: main: Initializing Ocsipersist-dbm...
+Dec 20 11:24:58: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:24:59: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:24:59: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:24:59: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:32:03: main: Initializing Ocsipersist-dbm...
+Dec 20 11:32:03: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:32:05: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:32:05: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:32:05: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:32:07: main: Initializing Ocsipersist-dbm...
+Dec 20 11:32:07: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:32:08: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:32:08: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:32:08: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:37:03: main: Initializing Ocsipersist-dbm...
+Dec 20 11:37:03: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:37:04: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:37:05: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:37:05: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:37:52: main: Initializing Ocsipersist-dbm...
+Dec 20 11:37:52: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:37:53: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:37:53: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:37:53: main: Ocsigen has been launched (initialisations ok)
+Dec 20 11:52:39: main: Initializing Ocsipersist-dbm...
+Dec 20 11:52:39: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 11:52:40: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 11:52:40: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 11:52:40: main: Ocsigen has been launched (initialisations ok)
+Dec 20 12:00:08: main: Initializing Ocsipersist-dbm...
+Dec 20 12:00:08: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 12:00:09: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 12:00:09: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 12:00:09: main: Ocsigen has been launched (initialisations ok)
+Dec 20 12:03:33: main: Initializing Ocsipersist-dbm...
+Dec 20 12:03:33: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 20 12:03:34: main: ...Initialization of Ocsipersist-dbm complete
+Dec 20 12:03:34: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 20 12:03:34: main: Ocsigen has been launched (initialisations ok)
+Dec 21 09:08:17: main: Initializing Ocsipersist-dbm...
+Dec 21 09:08:17: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 09:08:18: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 09:08:19: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 09:08:19: main: Ocsigen has been launched (initialisations ok)
+Dec 21 09:19:55: main: Initializing Ocsipersist-dbm...
+Dec 21 09:19:55: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 09:19:56: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 09:19:56: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 09:19:56: main: Ocsigen has been launched (initialisations ok)
+Dec 21 09:41:04: main: Initializing Ocsipersist-dbm...
+Dec 21 09:41:04: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 09:41:05: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 09:41:05: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 09:41:05: main: Ocsigen has been launched (initialisations ok)
+Dec 21 10:45:59: main: Initializing Ocsipersist-dbm...
+Dec 21 10:45:59: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 10:46:00: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 10:46:00: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 10:46:00: main: Ocsigen has been launched (initialisations ok)
+Dec 21 10:47:51: main: Initializing Ocsipersist-dbm...
+Dec 21 10:47:51: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 10:47:52: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 10:47:52: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 10:47:52: main: Ocsigen has been launched (initialisations ok)
+Dec 21 10:48:20: main: Initializing Ocsipersist-dbm...
+Dec 21 10:48:20: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 10:48:21: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 10:48:21: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 10:48:21: main: Ocsigen has been launched (initialisations ok)
+Dec 21 10:50:45: main: Initializing Ocsipersist-dbm...
+Dec 21 10:50:45: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 10:50:46: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 10:50:46: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 10:50:46: main: Ocsigen has been launched (initialisations ok)
+Dec 21 11:11:53: main: Initializing Ocsipersist-dbm...
+Dec 21 11:11:53: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 21 11:11:55: main: ...Initialization of Ocsipersist-dbm complete
+Dec 21 11:11:55: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 21 11:11:55: main: Ocsigen has been launched (initialisations ok)
+Dec 22 10:14:48: main: Initializing Ocsipersist-dbm...
+Dec 22 10:14:48: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 22 10:14:49: main: ...Initialization of Ocsipersist-dbm complete
+Dec 22 10:14:49: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 22 10:14:49: main: Ocsigen has been launched (initialisations ok)
+Dec 22 10:38:41: main: Initializing Ocsipersist-dbm...
+Dec 22 10:38:41: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 22 10:38:42: main: ...Initialization of Ocsipersist-dbm complete
+Dec 22 10:38:42: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 22 10:38:42: main: Ocsigen has been launched (initialisations ok)
+Dec 22 11:05:46: main: Initializing Ocsipersist-dbm...
+Dec 22 11:05:46: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 22 11:05:47: main: ...Initialization of Ocsipersist-dbm complete
+Dec 22 11:05:47: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 22 11:05:47: main: Ocsigen has been launched (initialisations ok)
+Dec 22 11:15:05: main: Initializing Ocsipersist-dbm...
+Dec 22 11:15:05: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 22 11:15:06: main: ...Initialization of Ocsipersist-dbm complete
+Dec 22 11:15:06: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 22 11:15:06: main: Ocsigen has been launched (initialisations ok)
+Dec 22 12:36:16: main: Initializing Ocsipersist-dbm...
+Dec 22 12:36:16: main: Launching a new Ocsidbm process: /home/ivan/.opam/system/lib/ocsigenserver/extensions/ocsidbm on directory local/var/data/iching/ocsipersist.
+Dec 22 12:36:17: main: ...Initialization of Ocsipersist-dbm complete
+Dec 22 12:36:18: main: While parsing config file, tag <host>: No defaulthostname, assuming it is "ivan-Latitude-E6430"
+Dec 22 12:36:18: main: Ocsigen has been launched (initialisations ok)
