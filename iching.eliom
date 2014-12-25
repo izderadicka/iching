@@ -72,8 +72,12 @@ let make_hexa_section ?(cls="") h hh =
   let h1,h2 =  Hexa.tri_from_hex hh in
   let cls = "hexa-name "^ cls in
   let open Hexa_text in
+  let hexa_cont = D.div ~a:[a_class ["hexa-svg"; "big"]; 
+			    Eliom_content.Html5.Custom_data.attrib Common.a_hexa h] 
+			[] in
   lwt h_below = Tri_text.get_trigram_text h1 and h_above=Tri_text.get_trigram_text h2 in
   lwt ht = get_hexagram_text hexa_no in
+  ignore {unit{ add_hexa_svg %hexa_cont %hh}};
   return
 <<
  <div class="hexagram centered section">
@@ -83,8 +87,8 @@ let make_hexa_section ?(cls="") h hh =
            $make_info_btn hexa_comment_service hexa_no$
           </h2>
 	  <div class="hexa-info centered">
-	  $F.img ~a:[F.a_class ["hexa"; "big"]] ~alt:"hexagram" 
-                 ~src:(F.make_uri ~service:hexa_picture_service2 h) ()$	  
+          $hexa_cont$
+	 
           <div class="trigram above">
           $list:make_tri_section h_above$
           </div>
@@ -214,4 +218,28 @@ let ()  =
 	     make_lines_section ht.Hexa_text.lines hexa_no]
 	   ))
    )
+
+
+let _ = Iching_app.register_service
+	  ~path: ["th"]
+	  ~get_params: Eliom_parameter.(suffix (int "h"))
+	 
+	  (fun hno () ->
+	   let hh= Hexa.hexa_from_index hno in
+	   let _h = Hexa.numbers_from_hexa hh in
+	   let hexa_cont =F.tot (Svg.F.toelt (Common.hexa_svg hh)) in
+	   let client_side = D.div ~a:[a_class ["on_client"]] [] in
+	   ignore {unit{ add_hexa_svg %client_side %hh}};
+	   return (make_page ~title:"Test" ~header:"Test SVG"
+			     [hexa_cont;
+			     F.h2 [F.pcdata "On Client"];
+			     client_side]
+		  )
+	   
+	  ) 
   
+
+
+
+	 
+	  

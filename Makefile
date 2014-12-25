@@ -144,6 +144,10 @@ else
   GLOBAL_SED_ARGS += -e "s|%%USERGROUP%%|<user>$(WWWUSER)</user><group>$(WWWGROUP)</group>|g"
 endif
 
+LOCAL_SED_ARGS += -e "s|%%LOCALEDIR%%|$(LOCALEDIR)|g"
+GLOBAL_SED_ARGS += -e "s|%%LOCALEDIR%%|%%PREFIX%%$(LOCALEDIR)|g"
+
+
 $(TEST_PREFIX)${ETCDIR}/${PROJECT_NAME}.conf: ${PROJECT_NAME}.conf.in Makefile.options | $(TEST_PREFIX)$(ETCDIR)
 	sed $(SED_ARGS) $(GLOBAL_SED_ARGS) $< | sed -e "s|%%PREFIX%%|$(PREFIX)|g" > $@
 $(TEST_PREFIX)${ETCDIR}/${PROJECT_NAME}-test.conf: ${PROJECT_NAME}.conf.in Makefile.options | $(TEST_PREFIX)$(ETCDIR)

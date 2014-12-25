@@ -24,6 +24,10 @@ let list_to_string ~printer res =
 		  in
 		  r ^ sep  ^ (printer  b)) "" res
 
+let string_to_list ~reader s =
+let l = Str.split (Str.regexp "\\s*,\\s*") s in
+List.map reader l
+
 let rec range ?(start=0) stop =
 if start < stop then start :: (range ~start:(start+1)) stop else []
 

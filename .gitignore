@@ -13,7 +13,9 @@ _client
 _deps
 _build
 test_data
-#*#
+\#*#
 .*
 local
-resources/ 
+resources
+notes
+ 

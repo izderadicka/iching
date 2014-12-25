@@ -20,7 +20,7 @@ let sn_ ss sp n = if n <=1 then  ss else sp
 let fn_ fs fp n = if n <=1 then (format_of_string fs) else (format_of_string fp)
 end
 
-let base_dir = ref "/home/ivan/workspace/iching/text"
+let base_dir = ref "locale"
 let default_lang = ref "en"
 let set_base_dir d =
   base_dir := d

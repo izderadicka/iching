@@ -4,7 +4,21 @@ open Common
 open I18n.Gettext
 open Lwt
 
+(* Configuration of the app *)
 
+let read_config () =
+  let open Simplexmlparser in
+  let  proc = function
+    | Element ("locale", [("dir",d)], []) -> I18n.set_base_dir d; Eliom_lib.debug "Set locale base dir to %s" d
+    | _ -> Eliom_lib.debug "Unknown config elem"
+  in
+  let cfg = Eliom_config.get_config () in
+  Eliom_lib.debug "Procesing config - %d elems" (List.length cfg);
+  List.iter proc cfg
+
+let () = read_config ()
+
+(******************************************************************************************************)
 module Iching_app =
   Eliom_registration.App (
     struct

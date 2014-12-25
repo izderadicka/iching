@@ -8,18 +8,18 @@ PROJECT_NAME := iching
 # Source files for the server
 SERVER_FILES := main.ml hexa.ml util.ml common.ml i18n.ml tri_text.ml hexa_text.ml $(wildcard *.eliomi *.eliom)
 # Source files for the client
-CLIENT_FILES := client.ml util.ml common.ml  $(wildcard *.eliomi *.eliom)
+CLIENT_FILES := client.ml  common.ml util.ml  $(wildcard *.eliomi *.eliom)
 
 # OCamlfind packages for the server
-SERVER_PACKAGES := cairo2 uuidm
+SERVER_PACKAGES := cairo2 uuidm str
 # OCamlfind packages for the client
-CLIENT_PACKAGES :=
+CLIENT_PACKAGES := str
 
 # Directory with files to be statically served
 LOCAL_STATIC = static
 
 # The backend for persistent data. Can be dbm or sqlite.
-PERSISTENT_DATA_BACKEND = dbm
+PERSISTENT_DATA_BACKEND = sqlite
 
 # Debug application (yes/no): Debugging info in compilation,
 # JavaScript, ocsigenserver
@@ -59,3 +59,6 @@ DATADIR := var/data/${PROJECT_NAME}
 STATICDIR := var/www/${PROJECT_NAME}/static
 # Project's JavaScript file
 ELIOMSTATICDIR := var/www/${PROJECT_NAME}/eliom
+
+#Localized texts directory
+LOCALEDIR := text
