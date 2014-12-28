@@ -166,7 +166,7 @@ let result_main stored_result_id =
 	  <:html5list<
 	  <div class="saved-result centered">$list:saved_result_note stored_result_id ts$</div>
 	  <div class="question-statement centered section">
-	  <h2>$str:s_ "Your Question Was"$</h2>
+	  <h2>$str:(s_ "Your Question Was")$</h2>
 	  <p>$str:q$</p>
 	  </div>
     	 
@@ -178,9 +178,65 @@ let result_main stored_result_id =
 	  >>
 	    )
 	 )
-      
+
+let language_selector () = 
+  let lang = I18n.get_current_lang () in
+  let s = D.Raw.select 
+	    ~a:[a_name "lang";
+		a_onchange {{fun e -> 
+			     let select = (Js.coerce_opt (e##target) 
+							 Dom_html.CoerceTo.select 
+							 (fun _ -> assert false))
+			     in
+			     let l = Js.to_string (select##value) in
+			     async (fun () -> Eliom_client.change_page ~service:%change_lang_service l ())
+			   }}
+	       ]
+	    (List.map (fun (l,lname) -> F.Raw.option ~a: ([a_value l]@
+							 (if l=lang then [a_selected `Selected ] else []))
+						     
+						     (pcdata lname)) !available_langs)
+  in
+  F.div ~a:[a_class ["lang-selector centered"]] [F.Raw.label [pcdata (s_ "Language: ");s]]
 
 let ()  = 
+ Iching_app.register
+    ~service:main_service
+    (fun () () ->
+      let open Html5.F in 
+     
+      return (make_page ~title:(s_ "I Ching - Book of Changes") ~header:((s_ "I Ching")^" (易經) "^(s_"Book of Changes"))
+			[ language_selector ();
+			  div ~a:[a_class ["intro"; "centered"]]
+			   [p 
+			   [pcdata (s_ "This interactive application presents ") ;
+			    make_ext_link "http://en.wikipedia.org/wiki/I_Ching" (s_ "I Ching ");
+			    pcdata (s_ " oracle.");
+			    br ();
+			    pcdata (s_ "Application is written in ");
+			    make_ext_link "http://ocaml.org" "Ocaml ";
+			    pcdata (s_ " language and web framefork ");
+			    make_ext_link "http://ocsigen.org" "Ocsigen";
+			    br ();
+			    pcdata (s_ "Text is based on Richard Wilhelm transation of the book")
+			   ];
+			   h2 [pcdata (s_ "How to use:")];
+			   ol ~a:[a_class ["instructions"]] [
+			     li [pcdata (s_ "Write down a question")];
+			     li [pcdata (s_ "Throw coins virually - with help of mouse movements")];
+			     li [pcdata (s_ "Read text for resulting "); a ~service:hexa_table_service 
+									   ~a:[a_target "_blank"]
+									   ~xhr: false
+									   [pcdata (s_ "hexagrams")]
+									   ()
+				] 
+			      ];
+			];
+			 a ~service:question_service ~a:[a_class ["next-btn"]] [pcdata (s_ "Start Here")] ()
+			]
+	     )
+    );
+
  Iching_app.register
    ~service: coins_service
   (fun () () ->
@@ -219,15 +275,14 @@ let ()  =
 	   ))
    )
 
-
 let _ = Iching_app.register_service
-	  ~path: ["th"]
+	  ~path: ["xtest"]
 	  ~get_params: Eliom_parameter.(suffix (int "h"))
 	 
 	  (fun hno () ->
 	   let hh= Hexa.hexa_from_index hno in
 	   let _h = Hexa.numbers_from_hexa hh in
-	   let hexa_cont =F.tot (Svg.F.toelt (Common.hexa_svg hh)) in
+	   let hexa_cont = Common.hexa_svg hh in
 	   let client_side = D.div ~a:[a_class ["on_client"]] [] in
 	   ignore {unit{ add_hexa_svg %client_side %hh}};
 	   return (make_page ~title:"Test" ~header:"Test SVG"
@@ -237,6 +292,7 @@ let _ = Iching_app.register_service
 		  )
 	   
 	  ) 
+
   
 
 

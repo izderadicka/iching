@@ -61,7 +61,7 @@ let hexa_svg h =
 			 
        in
        elems @ (draw_line (y +. y_offset) tl)
-  in  svg ~a:[a_width (90., Some `Px) ;a_height (83., Some `Px)]  (draw_line 9. (List.rev h))
+  in  F.svg ~a:[a_width (90., Some `Px) ;a_height (83., Some `Px)]  (draw_line 9. (List.rev h))
 
 
 

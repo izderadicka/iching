@@ -1,0 +1,22 @@
+<text>
+<term type="s" file="../main.ml">
+<text>english</text>
+<trans>english</trans>
+</term>
+<term type="f" file="../main.ml">
+<text>english %s</text>
+<trans>english %s</trans>
+</term>
+<term type="sn" file="../main.ml">
+<sng>english</sng>
+<pl>englishes</pl>
+<sng_trans>english</sng_trans>
+<pl_trans>englishes</pl_trans>
+</term>
+<term type="fn" file="../main.ml">
+<sng>english %s</sng>
+<pl>englishes %s</pl>
+<sng_trans>english %s</sng_trans>
+<pl_trans>englishes %s</pl_trans>
+</term>
+</text>

@@ -1,0 +1,22 @@
+<text>
+<term type="s" file="../main.ml">
+<text>english</text>
+<trans>čeština</trans>
+</term>
+<term type="f" file="../main.ml">
+<text>english %s</text>
+<trans>čeština %s</trans>
+</term>
+<term type="sn" file="../main.ml">
+<sng>english</sng>
+<pl>englishes</pl>
+<sng_trans>čeština</sng_trans>
+<pl_trans>češtiny</pl_trans>
+</term>
+<term type="fn" file="../main.ml">
+<sng>english %s</sng>
+<pl>englishes %s</pl>
+<sng_trans>čeština %s</sng_trans>
+<pl_trans>češtiny %s</pl_trans>
+</term>
+</text>

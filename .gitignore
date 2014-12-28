@@ -12,7 +12,7 @@ _server
 _client
 _deps
 _build
-test_data
+*.byte
 \#*#
 .*
 local

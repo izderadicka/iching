@@ -157,7 +157,7 @@ async (
      
 let add_hexa_svg cont h =
   let c = To_dom.of_div cont in
-  let svg = Svg.To_dom.of_node (Common.hexa_svg h) in
+  let svg = To_dom.of_node (Common.hexa_svg h) in
   ignore ( c##appendChild(svg) );
   Eliom_lib.debug "Added svg"
   

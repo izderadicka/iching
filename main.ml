@@ -5,18 +5,24 @@ open I18n.Gettext
 open Lwt
 
 (* Configuration of the app *)
+type config = {mutable base_dir: string; mutable lang: string}
+let config = {base_dir="text";lang="en"}
+let available_langs = ref []
 
 let read_config () =
   let open Simplexmlparser in
   let  proc = function
-    | Element ("locale", [("dir",d)], []) -> I18n.set_base_dir d; Eliom_lib.debug "Set locale base dir to %s" d
+    | Element ("locale", [("dir",d)], []) -> config.base_dir <- d; Eliom_lib.debug "Set locale base dir to %s" d
     | _ -> Eliom_lib.debug "Unknown config elem"
   in
   let cfg = Eliom_config.get_config () in
   Eliom_lib.debug "Procesing config - %d elems" (List.length cfg);
   List.iter proc cfg
 
-let () = read_config ()
+let () = 
+  read_config ();
+  I18n.init ~lang:config.lang ~base:config.base_dir ();
+  available_langs := I18n.list_langs_available_blocking ();
 
 (******************************************************************************************************)
 module Iching_app =
@@ -145,6 +151,11 @@ Eliom_service.App.post_coservice
   ~post_params: Eliom_parameter.unit
 ()
 
+let change_lang_service =
+Eliom_service.App.coservice'
+  ~get_params: (Eliom_parameter.string "lang")
+()
+
 
 (* Forms,  widgets utils *)
 (**********************************************************************************************)
@@ -194,7 +205,7 @@ let footer =
 (
 <:html5list<
 <div class="footer centered">
-<a href="/"> Interactive I Ching</a> brought to you by <a href="http://zderadicka.eu">Ivan</a>
+<a href="/">$str:(s_ "Interactive I Ching")$</a> $str:(s_ "brought to you by")$ <a href="http://zderadicka.eu">Ivan</a>
 </div>
 >>
 )
@@ -297,43 +308,6 @@ let hexa_picture = Util.memoize hexa_picture'
 (**************************************************************************************************)
 
 let () =
-  Iching_app.register
-    ~service:main_service
-    (fun () () ->
-      let open Html5.F in 
-      return (make_page ~title:(s_ "I Ching - Book of Changes") ~header:((s_ "I Ching")^" (易經) "^(s_"Book of Changes"))
-			[div ~a:[a_class ["intro"; "centered"]]
-			   [p 
-			   [pcdata (s_ "This interactive application presents ") ;
-			    make_ext_link "http://en.wikipedia.org/wiki/I_Ching" (s_ "I Ching ");
-			    pcdata (s_ " oracle.");
-			    br ();
-			    pcdata (s_ "Application is written in ");
-			    make_ext_link "http://ocaml.org" "Ocaml ";
-			    pcdata (s_ " language and web framefork ");
-			    make_ext_link "http://ocsigen.org" "Ocsigen";
-			    br ();
-			    pcdata (s_ "Text is based on Richard Wilhelm transation of the book")
-			   ];
-			   h2 [pcdata (s_ "How to use:")];
-			   ol ~a:[a_class ["instructions"]] [
-			     li [pcdata (s_ "Write down a question")];
-			     li [pcdata (s_ "Throw coins virually - with help of mouse movements")];
-			     li [pcdata (s_ "Read text for resulting "); a ~service:hexa_table_service 
-									   ~a:[a_target "_blank"]
-									   ~xhr: false
-									   [pcdata (s_ "hexagrams")]
-									   ()
-				] 
-			      ];
-			];
-			 a ~service:question_service ~a:[a_class ["next-btn"]] [pcdata (s_ "Start Here")] ()
-			]
-	     )
-    );
-												       
-       
-
   Eliom_registration.String.register
     ~service: hexa_picture_service
     (fun no () ->
@@ -437,7 +411,20 @@ let () =
 						(Eliom_service.preapply 
 						result_service
 						(Some id))
+	   );
+
+	 Eliom_registration.Action.register
+	   ~service:change_lang_service
+	   (fun lang () ->  
+	    try
+	     let _l = List.find (fun (l,_) -> l=lang) !available_langs 
+	     in
+	     return (I18n.set_lang lang)
+	    with
+	      Not_found ->  raise Eliom_common.Eliom_Wrong_parameter
 	   )
+	    
+	    
 							 
        
 
