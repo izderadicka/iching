@@ -26,7 +26,7 @@ Install And Run
 ```
 make all
 make install.opt
-cp -r text /usr/local
+
 ocsigenserver -c /usr/local/etc/iching/iching.conf
 ```
 
