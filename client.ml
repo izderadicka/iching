@@ -90,7 +90,7 @@ let launch_coins  main_elt progress_bar remaining coins throws_area next_btn =
 			  ]
 		       []
 		    );
-  Manip.appendChild remaining (R.pcdata (React.S.map (fun v -> string_of_int v) remaining_sig));
+  Manip.appendChild remaining (R.pcdata (React.S.map string_of_int remaining_sig));
   let _mouse_thread = Lwt_js_events.mousemoves
 			area
 			(fun evt _ ->
@@ -113,11 +113,15 @@ let launch_coins  main_elt progress_bar remaining coins throws_area next_btn =
 			 in
 			 shake_coins coins;
 			 proc_touches 0;
+			 Dom.preventDefault evt;
 			 return ()
 			)
   in
   ()
 			  
+let launch_counter jin jang jin_signal jang_signal =
+Manip.appendChild jin (R.pcdata (React.S.map string_of_int jin_signal));
+Manip.appendChild jang (R.pcdata (React.S.map string_of_int jang_signal))
 				       
 let create_dialog () =
 let open F in

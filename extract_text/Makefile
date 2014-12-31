@@ -1,4 +1,4 @@
 ##--------------------------------------------------------------------------
 ## Text extraction for localization
-extract:
-	corebuild -pkgs pcre,tyxml extract.byte
+all:
+	corebuild -pkgs pcre,tyxml,tyxml.parser tool.byte

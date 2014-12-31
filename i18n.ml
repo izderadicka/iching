@@ -157,11 +157,6 @@ let get_resource key =
   get_res lang key
 end
   
-exception InvalidTextFile of string
-
-type lang_term = Singular_string of string|Singular_format of string|Plural_string of string*string
-	    |Plural_format of string*string 
-
 (*dummy module to match gettext interface for now *)
 module Gettext :
 sig
@@ -180,34 +175,15 @@ struct
 
 module T = Locale(struct
 
-type entry = lang_term
-type key = lang_term
+type entry = Lang_res.lang_term
+type key = Lang_res.lang_term
 
 let expected_size = 100
 let resource_file = "text.xml"
 
-open Simplexmlparser
-open Xml_util
-
-let parse_term = function
-  | Element ("term", ("type", "s")::_ , [txt;sng]) -> Singular_string (text_from_el "text" txt), 
-						     Singular_string (text_from_el "trans" sng)
-  | Element ("term", ("type", "f")::_, [txt;sng]) -> Singular_format (text_from_el "text" txt), 
-						     Singular_format (text_from_el "trans" sng)
-  |  Element ("term", ("type", "sn")::_, [txt_sng;txt_pl;sng;pl]) ->
-      Plural_string (text_from_el "sng" txt_sng, text_from_el "pl" txt_pl),
-      Plural_string (text_from_el "sng_trans" sng, text_from_el "pl_trans" pl)
-  |  Element ("term", ("type", "fn")::_, [txt_sng;txt_pl;sng;pl]) ->
-      Plural_format (text_from_el "sng" txt_sng, text_from_el "pl" txt_pl),
-      Plural_format (text_from_el "sng_trans" sng, text_from_el "pl_trans" pl)
-  | e -> raise (InvalidTextFile (Printf.sprintf "Invalid term %s" (simple_print e)))
-
-let parse_xml = function
-  | [Element ("text", [], terms)] -> List.map parse_term terms
-  | _ -> raise (InvalidTextFile "Invalid root element")
 
 let  parse_resource  s =
-  parse_xml (xmlparser_string s)
+  Lang_res.parse_xml s
 
 end)
 
@@ -220,7 +196,7 @@ let get_res_opt r =
   with
   | ResourceNotAvailable ->
      None
-
+open Lang_res
 let s_ s = 
   match get_res_opt (Singular_string s) with
   | Some (Singular_string r) -> r

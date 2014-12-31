@@ -199,6 +199,16 @@ let language_selector () =
   in
   F.div ~a:[a_class ["lang-selector centered"]] [F.Raw.label [pcdata (s_ "Language: ");s]]
 
+let jj_counter () = 
+  let cjin = D.div ~a:[a_class ["counter";"jin"]] [] in
+  let cjang = D.div ~a:[a_class ["counter";"jang"]] [] in
+  ignore {unit{
+	      launch_counter %cjin %cjang %csig_jin %csig_jang
+	    }};
+  F.div ~a:[a_class ["jj centered"]] 
+	[F.div ~a:[a_class ["jj-picture"]] [cjang;cjin];
+	F.h2 [pcdata (s_ "Yin - Yang Counter")];]
+
 let ()  = 
  Iching_app.register
     ~service:main_service
@@ -232,12 +242,13 @@ let ()  =
 				] 
 			      ];
 			];
-			 a ~service:question_service ~a:[a_class ["next-btn"]] [pcdata (s_ "Start Here")] ()
+			 a ~service:question_service ~a:[a_class ["next-btn"]] [pcdata (s_ "Start Here")] ();
+			 jj_counter ();
 			]
 	     )
     );
 
- Iching_app.register
+ Iching_app_checked.register
    ~service: coins_service
   (fun () () ->
    
@@ -255,7 +266,7 @@ let ()  =
 		       next_btn])
   );
 
- Iching_app.register
+ Iching_app_checked.register
    ~service:result_service
    (fun (stored_result_id) () ->
     redir_if_needed stored_result_id result_main

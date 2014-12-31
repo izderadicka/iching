@@ -36,6 +36,11 @@ module Iching_app =
 let question = Eliom_reference.eref ~scope:Eliom_common.default_session_scope  None
 let hexagram = Eliom_reference.eref ~scope:Eliom_common.default_session_scope  []
 let result_id = Eliom_reference.eref ~scope:Eliom_common.default_session_scope  None 
+
+let error=Eliom_reference.eref ~scope:Eliom_common.request_scope None
+
+let jj_count = Eliom_reference.eref ~scope:Eliom_common.global_scope ~persistent:"jj_count" (0,0)
+
 let results = Ocsipersist.open_table "iching_results"
 
 let get_current_oracle () =
@@ -65,6 +70,32 @@ let save_oracle o =
 let forget_oracle () = 
   Eliom_reference.set question None >>=
   fun () -> Eliom_reference.set hexagram []
+
+let set_error txt =
+  Eliom_reference.set error (Some txt) 
+
+(* Signals *)
+(******************************************************************************************************)
+let sig_jin,update_jin = React.S.create 0
+let sig_jang,update_jang = React.S.create 0
+let csig_jin = Eliom_react.S.Down.of_react sig_jin
+let csig_jang = Eliom_react.S.Down.of_react sig_jang
+
+let update_jj h = 
+  let jin,jang = List.fold_left (fun (jin,jang) n -> if n mod 2 = 1 then (jin,jang+1) else (jin+1,jang))
+				(0,0) h 
+  in
+  let njin, njang = React.S.value sig_jin + jin, React.S.value sig_jang +jang in
+  update_jin (njin);
+  update_jang (njang);
+  Eliom_reference.set jj_count (njin,njang)
+
+let () = 
+  async (fun () -> Eliom_reference.get jj_count >|= 
+		     fun (jin,jang) ->
+		     update_jin jin;
+		     update_jang jang
+	)
 
 (* Services *)
 (******************************************************************************************************)
@@ -219,6 +250,9 @@ Eliom_tools.F.html ~title
 		   F.(body
 			      ([h1 [pcdata header_title]]@body_cont))
 
+let error_page ~header msg =
+  make_page ~title: (s_ "Application Error") ~header  [F.p ~a:[F.a_class ["error_msg"]] 
+							   [F.pcdata (s_ msg)]]
 
 let make_ext_link url txt =
 let open Html5.F in
@@ -304,6 +338,34 @@ let hexa_picture' h =
      
 let hexa_picture = Util.memoize hexa_picture'
 
+(* Error handling *)
+(**************************************************************************************************)
+
+let _ = Eliom_registration.set_exn_handler
+   let open F in
+   (fun e -> match e with
+    | Eliom_common.Eliom_404 ->
+        Eliom_registration.Html5.send ~code:404
+          (error_page ~header:(s_ "Unknown page")
+                     (s_ "Page not found"))
+    | Eliom_common.Eliom_Wrong_parameter ->
+        Eliom_registration.Html5.send
+         (error_page ~header:(s_ "Wrong parameters")
+                    (s_ "Page was accessed with wrong parameters"))
+    | e -> fail e)
+
+module Iching_app_checked = Eliom_registration.Customize (Iching_app) 
+						(struct
+						    type page = Iching_app.page
+						    let translate page =
+						      Eliom_reference.get error >>=
+							function 
+							| None -> return page
+							| Some err -> return 
+							     (error_page ~header:(s_ "Application Error")  err)
+end)
+									
+
 (* Registration *)
 (**************************************************************************************************)
 
@@ -357,18 +419,21 @@ let () =
       ~service: save_question_action
       (fun () (q) ->
        if (String.length q) > 5 then (set_question (Some q))
-       else raise  Eliom_common.Eliom_Wrong_parameter
+       else set_error (s_ "Invalid question")
       );
 
     Eliom_registration.Action.register
       ~service: save_hexa_action
       (fun _ (h) ->
-       
-       if (List.length h) = 6 then (set_hexagram h)
-       else raise  Eliom_common.Eliom_Wrong_parameter
+       Eliom_reference.get question >>=
+       function
+       | None -> set_error (s_ "No question set")
+       | Some _ ->
+	  if (List.length h) = 6 then (update_jj h >>= fun () -> set_hexagram h)
+	  else set_error (s_ "Invalid hexagram")
       );
 
-    Iching_app.register
+    Iching_app_checked.register
       ~service:question_service
       (fun () () ->
        return ( make_page ~title:(s_ "Your Question") ~header:(s_ "Your Question?")
@@ -421,7 +486,7 @@ let () =
 	     in
 	     return (I18n.set_lang lang)
 	    with
-	      Not_found ->  raise Eliom_common.Eliom_Wrong_parameter
+	      Not_found ->  set_error (s_ "Unknown language") 
 	   )
 	    
 	    

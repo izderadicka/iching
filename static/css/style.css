@@ -266,3 +266,26 @@ ul.lines-list {
 .hexa-svg {
   float:left;
 }
+
+.jj-picture {
+  width:150px;
+  height:150px;
+  background: url('/img/yy.png') no-repeat;
+  background-size: 150px 150px;
+  margin: 0px auto;
+}
+
+.counter {
+  font-weight:bold;
+  font-size: 13px;
+  position:relative;
+}
+
+.counter.jang {
+  top:30px
+}
+
+.counter.jin {
+  top:87px;
+  color:white;
+}

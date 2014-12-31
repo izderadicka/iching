@@ -6,7 +6,7 @@
 PROJECT_NAME := iching
 
 # Source files for the server
-SERVER_FILES := main.ml hexa.ml  util.ml common.ml i18n.ml tri_text.ml hexa_text.ml xml_util.ml $(wildcard *.eliomi *.eliom)
+SERVER_FILES := main.ml hexa.ml  util.ml common.ml i18n.ml tri_text.ml hexa_text.ml xml_util.ml lang_res.ml $(wildcard *.eliomi *.eliom)
 # Source files for the client
 CLIENT_FILES := client.ml  common.ml util.ml    $(wildcard *.eliomi *.eliom)
 
