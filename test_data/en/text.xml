@@ -1,19 +1,23 @@
 <text>
-<term type="s" file="../main.ml">
+<term type="s">
+<text>&amp;&lt;&gt;&quot;</text>
+<trans>&amp;&lt;&gt;&quot;</trans>
+</term>
+<term type="s">
 <text>english</text>
 <trans>english</trans>
 </term>
-<term type="f" file="../main.ml">
+<term type="f">
 <text>english %s</text>
 <trans>english %s</trans>
 </term>
-<term type="sn" file="../main.ml">
+<term type="sn">
 <sng>english</sng>
 <pl>englishes</pl>
 <sng_trans>english</sng_trans>
 <pl_trans>englishes</pl_trans>
 </term>
-<term type="fn" file="../main.ml">
+<term type="fn">
 <sng>english %s</sng>
 <pl>englishes %s</pl>
 <sng_trans>english %s</sng_trans>

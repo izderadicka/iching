@@ -251,8 +251,8 @@ Eliom_tools.F.html ~title
 			      ([h1 [pcdata header_title]]@body_cont))
 
 let error_page ~header msg =
-  make_page ~title: (s_ "Application Error") ~header  [F.p ~a:[F.a_class ["error_msg"]] 
-							   [F.pcdata (s_ msg)]]
+  make_page ~title: (s_ "Application Error") ~header  [F.p ~a:[F.a_class ["error_msg";"centered"]] 
+							   [F.pcdata msg]]
 
 let make_ext_link url txt =
 let open Html5.F in

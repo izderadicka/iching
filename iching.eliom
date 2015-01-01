@@ -225,7 +225,7 @@ let ()  =
 			    br ();
 			    pcdata (s_ "Application is written in ");
 			    make_ext_link "http://ocaml.org" "Ocaml ";
-			    pcdata (s_ " language and web framefork ");
+			    pcdata (s_ " language and web framework ");
 			    make_ext_link "http://ocsigen.org" "Ocsigen";
 			    br ();
 			    pcdata (s_ "Text is based on Richard Wilhelm transation of the book")

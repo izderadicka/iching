@@ -99,6 +99,8 @@ let test_i18n _ =
   let cwd = Sys.getcwd () in
   init ~base:(Filename.concat cwd "test_data") ();
   let open Gettext in
+  assert_equal "&<>\"" (s_ "&<>\"");
+  
   assert_equal "english" (s_ "english");
   assert_equal "english 1" (Printf.sprintf (f_ "english %s") "1");
   assert_equal "english" (sn_ "english" "englishes" 1);

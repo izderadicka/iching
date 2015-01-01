@@ -1,193 +1,209 @@
 <text>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Move mouse(finger) around this area to throw coins</text>
 <trans>Move mouse(finger) around this area to throw coins</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text> throws remain</text>
 <trans> throws remain</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Enter your question below:</text>
 <trans>Enter your question below:</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Next</text>
 <trans>Next</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Show Oracle</text>
 <trans>Show Oracle</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Interactive I Ching</text>
 <trans>Interactive I Ching</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>brought to you by</text>
 <trans>brought to you by</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
+<text>Application Error</text>
+<trans>Application Error</trans>
+</term>
+<term type="s">
 <text>Remember It</text>
 <trans>Remember It</trans>
 </term>
-<term type="s" file="../main.ml">
-<text>I Ching - Book of Changes</text>
-<trans>I Ching - Book of Changes</trans>
+<term type="s">
+<text>Unknown page</text>
+<trans>Unknown page</trans>
 </term>
-<term type="s" file="../main.ml">
-<text>I Ching</text>
-<trans>I Ching</trans>
+<term type="s">
+<text>Page not found</text>
+<trans>Page not found</trans>
 </term>
-<term type="s" file="../main.ml">
-<text>Book of Changes</text>
-<trans>Book of Changes</trans>
+<term type="s">
+<text>Wrong parameters</text>
+<trans>Wrong parameters</trans>
 </term>
-<term type="s" file="../main.ml">
-<text>This interactive application presents </text>
-<trans>This interactive application presents </trans>
+<term type="s">
+<text>Page was accessed with wrong parameters</text>
+<trans>Page was accessed with wrong parameters</trans>
 </term>
-<term type="s" file="../main.ml">
-<text>I Ching </text>
-<trans>I Ching </trans>
-</term>
-<term type="s" file="../main.ml">
-<text> oracle.</text>
-<trans> oracle.</trans>
-</term>
-<term type="s" file="../main.ml">
-<text>Application is written in </text>
-<trans>Application is written in </trans>
-</term>
-<term type="s" file="../main.ml">
-<text> language and web framefork </text>
-<trans> language and web framefork </trans>
-</term>
-<term type="s" file="../main.ml">
-<text>Text is based on Richard Wilhelm transation of the book</text>
-<trans>Text is based on Richard Wilhelm transation of the book</trans>
-</term>
-<term type="s" file="../main.ml">
-<text>How to use:</text>
-<trans>How to use:</trans>
-</term>
-<term type="s" file="../main.ml">
-<text>Write down a question</text>
-<trans>Write down a question</trans>
-</term>
-<term type="s" file="../main.ml">
-<text>Throw coins virually - with help of mouse movements</text>
-<trans>Throw coins virually - with help of mouse movements</trans>
-</term>
-<term type="s" file="../main.ml">
-<text>Read text for resulting </text>
-<trans>Read text for resulting </trans>
-</term>
-<term type="s" file="../main.ml">
-<text>hexagrams</text>
-<trans>hexagrams</trans>
-</term>
-<term type="s" file="../main.ml">
-<text>Start Here</text>
-<trans>Start Here</trans>
-</term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Hexagrams Table</text>
 <trans>Hexagrams Table</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Hexagrams Table in Fuxi Order</text>
 <trans>Hexagrams Table in Fuxi Order</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
+<text>Invalid question</text>
+<trans>Invalid question</trans>
+</term>
+<term type="s">
+<text>No question set</text>
+<trans>No question set</trans>
+</term>
+<term type="s">
+<text>Invalid hexagram</text>
+<trans>Invalid hexagram</trans>
+</term>
+<term type="s">
 <text>Your Question</text>
 <trans>Your Question</trans>
 </term>
-<term type="s" file="../main.ml">
+<term type="s">
 <text>Your Question?</text>
 <trans>Your Question?</trans>
 </term>
-<term type="s" file="../test.ml">
-<text>english</text>
-<trans>english</trans>
+<term type="s">
+<text>Unknown language</text>
+<trans>Unknown language</trans>
 </term>
-<term type="s" file="../test.ml">
-<text>english</text>
-<trans>english</trans>
-</term>
-<term type="f" file="../test.ml">
-<text>english %s</text>
-<trans>english %s</trans>
-</term>
-<term type="f" file="../test.ml">
-<text>english %s</text>
-<trans>english %s</trans>
-</term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>Close</text>
 <trans>Close</trans>
 </term>
-<term type="s" file="../iching.eliom">
-<text>Close</text>
-<trans>Close</trans>
-</term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>Moving Lines</text>
 <trans>Moving Lines</trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>The Judgement</text>
 <trans>The Judgement</trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>The Image</text>
 <trans>The Image</trans>
 </term>
-<term type="s" file="../iching.eliom">
-<text>Remember It</text>
-<trans>Remember It</trans>
-</term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>Redirecting to stored result  </text>
 <trans>Redirecting to stored result  </trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>You should use URL with stored result ID</text>
 <trans>You should use URL with stored result ID</trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>I Ching Result from </text>
 <trans>I Ching Result from </trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>I Ching Oracle</text>
 <trans>I Ching Oracle</trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>Your Question Was</text>
 <trans>Your Question Was</trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>New Question</text>
 <trans>New Question</trans>
 </term>
-<term type="s" file="../iching.eliom">
+<term type="s">
+<text>Language: </text>
+<trans>Language: </trans>
+</term>
+<term type="s">
+<text>Yin - Yang Counter</text>
+<trans>Yin - Yang Counter</trans>
+</term>
+<term type="s">
+<text>I Ching - Book of Changes</text>
+<trans>I Ching - Book of Changes</trans>
+</term>
+<term type="s">
+<text>I Ching</text>
+<trans>I Ching</trans>
+</term>
+<term type="s">
+<text>Book of Changes</text>
+<trans>Book of Changes</trans>
+</term>
+<term type="s">
+<text>This interactive application presents </text>
+<trans>This interactive application presents </trans>
+</term>
+<term type="s">
+<text>I Ching </text>
+<trans>I Ching </trans>
+</term>
+<term type="s">
+<text> oracle.</text>
+<trans> oracle.</trans>
+</term>
+<term type="s">
+<text>Application is written in </text>
+<trans>Application is written in </trans>
+</term>
+<term type="s">
+<text> language and web framework </text>
+<trans> language and web framework </trans>
+</term>
+<term type="s">
+<text>Text is based on Richard Wilhelm transation of the book</text>
+<trans>Text is based on Richard Wilhelm transation of the book</trans>
+</term>
+<term type="s">
+<text>How to use:</text>
+<trans>How to use:</trans>
+</term>
+<term type="s">
+<text>Write down a question</text>
+<trans>Write down a question</trans>
+</term>
+<term type="s">
+<text>Throw coins virually - with help of mouse movements</text>
+<trans>Throw coins virually - with help of mouse movements</trans>
+</term>
+<term type="s">
+<text>Read text for resulting </text>
+<trans>Read text for resulting </trans>
+</term>
+<term type="s">
+<text>hexagrams</text>
+<trans>hexagrams</trans>
+</term>
+<term type="s">
+<text>Start Here</text>
+<trans>Start Here</trans>
+</term>
+<term type="s">
 <text>Throw coins</text>
 <trans>Throw coins</trans>
 </term>
-<term type="s" file="../iching.eliom">
-<text>Throw coins</text>
-<trans>Throw coins</trans>
-</term>
-<term type="s" file="../iching.eliom">
+<term type="s">
 <text>Hexagram</text>
 <trans>Hexagram</trans>
 </term>
-<term type="f" file="../iching.eliom">
+<term type="f">
 <text>This is saved result from %s. You can link it or share the link.</text>
 <trans>This is saved result from %s. You can link it or share the link.</trans>
 </term>
-<term type="f" file="../iching.eliom">
+<term type="f">
 <text>Hexagram no.%d</text>
 <trans>Hexagram no.%d</trans>
 </term>

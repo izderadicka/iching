@@ -31,18 +31,18 @@ let encode_term = function
   |Plural_string (s1,s2) -> Plural_format (Xml_print.encode_unsafe_char s1, Xml_print.encode_unsafe_char s2)
   |Plural_format (f1,f2) -> Plural_format (Xml_print.encode_unsafe_char f1, Xml_print.encode_unsafe_char f2)
 
-let output_term w f t1 t2 =
+let output_term w t1 t2 =
 let open Printf in
 match ((encode_term t1),(encode_term t2)) with
     | Singular_string s1, Singular_string s2 -> 
-       w (sprintf "<term type=\"s\" file=\"%s\">\n<text>%s</text>\n<trans>%s</trans>\n</term>\n"  f s1 s2)
+       w (sprintf "<term type=\"s\">\n<text>%s</text>\n<trans>%s</trans>\n</term>\n" s1 s2)
     | Singular_format s1, Singular_format s2 -> 
-       w (sprintf "<term type=\"f\" file=\"%s\">\n<text>%s</text>\n<trans>%s</trans>\n</term>\n" 
-		    f s1 s2)
+       w (sprintf "<term type=\"f\">\n<text>%s</text>\n<trans>%s</trans>\n</term>\n" 
+		     s1 s2)
     | Plural_string (s1,s2), Plural_string (s1',s2') -> 
-       w (sprintf "<term type=\"sn\" file=\"%s\">\n<sng>%s</sng>\n<pl>%s</pl>\n<sng_trans>%s</sng_trans>\n<pl_trans>%s</pl_trans>/n</term>\n" 
-		    f s1 s2 s1' s2')
-    | Plural_format (s1,s2), Plural_format (s1',s2') ->  w (sprintf "<term type=\"fn\" file=\"%s\">\n<sng>%s</sng>\n<pl>%s</pl>\n<sng_trans>%s</sng_trans>\n<pl_trans>%s</pl_trans>/n</term>\n"
-		    f s1 s2 s1' s2');
+       w (sprintf "<term type=\"sn\">\n<sng>%s</sng>\n<pl>%s</pl>\n<sng_trans>%s</sng_trans>\n<pl_trans>%s</pl_trans>/n</term>\n" 
+		    s1 s2 s1' s2')
+    | Plural_format (s1,s2), Plural_format (s1',s2') ->  w (sprintf "<term type=\"fn\">\n<sng>%s</sng>\n<pl>%s</pl>\n<sng_trans>%s</sng_trans>\n<pl_trans>%s</pl_trans>/n</term>\n"
+		    s1 s2 s1' s2');
     | _ -> assert false
 
