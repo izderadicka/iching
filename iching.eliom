@@ -107,10 +107,32 @@ let make_hexa_section ?(cls="") h hh =
 	  </div>	
 >>
 
+let language_selector () = 
+  let lang = I18n.get_current_lang () in
+  let s = D.Raw.select 
+	    ~a:[a_name "lang";
+		a_onchange {{fun e -> 
+			     let select = (Js.coerce_opt (e##target) 
+							 Dom_html.CoerceTo.select 
+							 (fun _ -> assert false))
+			     in
+			     let l = Js.to_string (select##value) in
+			     async (fun () -> Eliom_client.change_page ~service:%change_lang_service l ())
+			   }}
+	       ]
+	    (List.map (fun (l,lname) -> F.Raw.option ~a: ([a_value l]@
+							 (if l=lang then [a_selected `Selected ] else []))
+						     
+						     (pcdata lname)) (I18n.get_available_languages ()))
+  in
+  F.div ~a:[a_class ["lang-selector centered"]] [F.Raw.label [pcdata (s_ "Language: ");s]]
+
 let saved_result_note id ts =
   match id with 
   | None -> []
-  | Some _ -> [F.p [F.pcdata (Printf.sprintf (f_ "This is saved result from %s. You can link it or share the link.") (I18n.fmt_calendar ts))]]
+  | Some _ -> [F.p [F.pcdata (Printf.sprintf (f_ "This is saved result from %s. You can link it or share the link.") (I18n.fmt_calendar ts))];
+language_selector ()
+]
 
 let save_result_link id =
   let open F in 
@@ -148,7 +170,8 @@ let redir_if_needed  id_in_url main =
 
 let result_main stored_result_id = 
   get_oracle_params stored_result_id >>=
-    (fun (q,h,ts) -> 
+    (fun (q,lang,h,ts) -> 
+     if not (Eliom_reference.Volatile.get lang_change) then (I18n.set_lang lang);
      let module Html5 = F  in
      let hh = Hexa.hexa_from_numbers h in
      let snd,snd_exists = Hexa.complementary_hexa hh in
@@ -159,7 +182,6 @@ let result_main stored_result_id =
 	     else return (F.div [])
      in
      lwt lines = Hexa_text.get_lines hexa_no (Hexa.moving_lines hh) in
-     
       return  ( make_page ~title:((s_ "I Ching Result from ") ^ (I18n.fmt_calendar ts))
 			  ~header:(s_ "I Ching Oracle")
 		   
@@ -179,26 +201,6 @@ let result_main stored_result_id =
 	    )
 	 )
 
-let language_selector () = 
-  let lang = I18n.get_current_lang () in
-  let s = D.Raw.select 
-	    ~a:[a_name "lang";
-		a_onchange {{fun e -> 
-			     let select = (Js.coerce_opt (e##target) 
-							 Dom_html.CoerceTo.select 
-							 (fun _ -> assert false))
-			     in
-			     let l = Js.to_string (select##value) in
-			     async (fun () -> Eliom_client.change_page ~service:%change_lang_service l ())
-			   }}
-	       ]
-	    (List.map (fun (l,lname) -> F.Raw.option ~a: ([a_value l]@
-							 (if l=lang then [a_selected `Selected ] else []))
-						     
-						     (pcdata lname)) !available_langs)
-  in
-  F.div ~a:[a_class ["lang-selector centered"]] [F.Raw.label [pcdata (s_ "Language: ");s]]
-
 let jj_counter () = 
   let cjin = D.div ~a:[a_class ["counter";"jin"]] [] in
   let cjang = D.div ~a:[a_class ["counter";"jang"]] [] in
@@ -213,8 +215,8 @@ let ()  =
  Iching_app.register
     ~service:main_service
     (fun () () ->
-      let open Html5.F in 
-     
+     I18n.set_lang_from_header ();
+      let open Html5.F in      
       return (make_page ~title:(s_ "I Ching - Book of Changes") ~header:((s_ "I Ching")^" (易經) "^(s_"Book of Changes"))
 			[ language_selector ();
 			  div ~a:[a_class ["intro"; "centered"]]

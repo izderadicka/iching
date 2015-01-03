@@ -57,20 +57,24 @@ let launch_coins  main_elt progress_bar remaining coins throws_area next_btn =
     	Eliom_lib.debug "Thrown coins - attempt %d - result:  %s" no 
 			(Util.list_to_string ~printer:string_of_bool res);
 	update_remaining ((React.S.value remaining_sig) - 1);
-	let value = Common.throw_value res in
-	Manip.appendChild throws_area 
-			  Html5.F.(li ([span ~a:[a_class ["throw-no"]] [pcdata (string_of_int (no+1))]] @
-						  Common.mk_three_coins ~small:true res @ 
-						    [span ~a:[a_class ["throw-result"]] 
-							  [pcdata " = "; 
-							   pcdata (string_of_int value)]
-						    ])
-				      
-	);
-	(* below is equivalent to JS code document.getElementById("hexa_"+no).value = value *)
-	let input = Js.coerce_opt (Dom_html.document##getElementById(Js.string(Printf.sprintf "hexa_%d" no)))
-		     Dom_html.CoerceTo.input (fun _ -> assert false) in
-	input##value <- (Js.string (string_of_int value));
+
+	if no <= 5 then 	(* prevent action from buffred events *)
+	  begin
+	    let value = Common.throw_value res in
+	    Manip.appendChild throws_area 
+			      Html5.F.(li ([span ~a:[a_class ["throw-no"]] [pcdata (string_of_int (no+1))]] @
+					     Common.mk_three_coins ~small:true res @ 
+					       [span ~a:[a_class ["throw-result"]] 
+						     [pcdata " = "; 
+						      pcdata (string_of_int value)]
+					  ])
+					  
+	    );
+	    (* below is equivalent to JS code document.getElementById("hexa_"+no).value = value *)
+	    let input = Js.coerce_opt (Dom_html.document##getElementById(Js.string(Printf.sprintf "hexa_%d" no)))
+				      Dom_html.CoerceTo.input (fun _ -> assert false) in
+	    input##value <- (Js.string (string_of_int value))
+	  end;
 	if no>=5 then
 	  (
 	    Manip.removeSelf main_elt;

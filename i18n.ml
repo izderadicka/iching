@@ -10,8 +10,41 @@ let set_default_lang l =
 let language:string option Eliom_reference.Volatile.eref = Eliom_reference.Volatile.eref 
 						    ~scope:Eliom_common.default_session_scope  None
 
+let available_langs = ref []
+
+let get_available_languages () =
+  !available_langs
+
 let set_lang s =
   Eliom_reference.Volatile.set language (Some s)
+
+let set_lang_from_header () =
+    match Eliom_reference.Volatile.get language with
+    | Some _ -> ()
+    | None -> let req = List.map 
+			  (fun (l,q) -> 
+			   let q = match q with
+			     | Some v -> v
+			     | None -> 1.0
+			   in 
+			   let l  = ( try let sp =  String.index l '-' in 
+					  String.sub l 0 sp
+				      with Not_found -> l) in
+			  (l,q)
+			  )
+			  (Eliom_request_info.get_accept_language ()) in
+	      let req = List.sort (fun (_,a) (_,b) ->
+				   if a>b then -1 
+				   else if a < b then 1
+					   else 0)
+				  req
+	      in
+	      let avail = List.map fst (get_available_languages ()) in
+	      match  List.filter (fun (l,_) -> List.mem l avail) req with
+	      | [] -> set_lang (!default_lang)
+	      | (l,_)::_ -> set_lang l
+	      
+	      
 
 let get_current_lang ()  = 
 try 
@@ -60,7 +93,7 @@ let list_langs_available_blocking () =
 	    l, (load_file  (Filename.concat (Filename.concat !base_dir l) "lang"))
 	   ) langs
 
-let get_all_resources_blocking fname process = 
+let iter_all_resources_blocking fname process = 
 let langs = list_langs_available_blocking () in
 List.iter (fun (lang, _) ->
 	   let s = get_resource_from_file_blocking lang fname in
@@ -122,7 +155,7 @@ module Blocking = struct
     let load_all_languages () = 
        Hashtbl.clear catalog;
        Hashtbl.clear loaded_lang;
-      get_all_resources_blocking resource_file 
+      iter_all_resources_blocking resource_file 
 				 (fun lang s -> update_catalog lang s)
 
     let rec get_res lang key =
@@ -232,4 +265,5 @@ end
 let init ?(lang="en") ?(base="locale") () =
   default_lang:= lang;
   base_dir:=base;
+  available_langs := list_langs_available_blocking ();
   Gettext.load_resources ()

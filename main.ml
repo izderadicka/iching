@@ -7,7 +7,6 @@ open Lwt
 (* Configuration of the app *)
 type config = {mutable base_dir: string; mutable lang: string}
 let config = {base_dir="text";lang="en"}
-let available_langs = ref []
 
 let read_config () =
   let open Simplexmlparser in
@@ -22,7 +21,7 @@ let read_config () =
 let () = 
   read_config ();
   I18n.init ~lang:config.lang ~base:config.base_dir ();
-  available_langs := I18n.list_langs_available_blocking ();
+ 
 
 (******************************************************************************************************)
 module Iching_app =
@@ -38,17 +37,20 @@ let hexagram = Eliom_reference.eref ~scope:Eliom_common.default_session_scope  [
 let result_id = Eliom_reference.eref ~scope:Eliom_common.default_session_scope  None 
 
 let error=Eliom_reference.eref ~scope:Eliom_common.request_scope None
+let lang_change = Eliom_reference.Volatile.eref ~scope:Eliom_common.request_scope false
 
 let jj_count = Eliom_reference.eref ~scope:Eliom_common.global_scope ~persistent:"jj_count" (0,0)
 
 let results = Ocsipersist.open_table "iching_results"
 
-let get_current_oracle () =
+type saved_oracle = string * string * int list * CalendarLib.Calendar.t
+
+let get_current_oracle (): saved_oracle Lwt.t =
   Eliom_reference.get question >>=
     fun q -> Eliom_reference.get hexagram >|=
 	       fun h -> 
 	       match (q,h) with
-	       | (Some q, [a;b;c;d;e;f]) -> (q,h,CalendarLib.Calendar.now () )
+	       | (Some q, [a;b;c;d;e;f]) -> (q, I18n.get_current_lang (), h, CalendarLib.Calendar.now () )
 	       | _ -> raise Eliom_common.Eliom_Wrong_parameter
 
 let set_question q = 
@@ -482,8 +484,9 @@ let () =
 	   ~service:change_lang_service
 	   (fun lang () ->  
 	    try
-	     let _l = List.find (fun (l,_) -> l=lang) !available_langs 
+	     let _l = List.find (fun (l,_) -> l=lang) (I18n.get_available_languages ()) 
 	     in
+	     Eliom_reference.Volatile.set lang_change true;
 	     return (I18n.set_lang lang)
 	    with
 	      Not_found ->  set_error (s_ "Unknown language") 

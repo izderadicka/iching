@@ -289,3 +289,8 @@ ul.lines-list {
   top:87px;
   color:white;
 }
+
+ol.instructions {
+  list-style-position:  inside;
+  padding: 0;
+}
