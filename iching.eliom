@@ -240,8 +240,12 @@ let ()  =
 									   ~a:[a_target "_blank"]
 									   ~xhr: false
 									   [pcdata (s_ "hexagrams")]
-									   ()
-				] 
+									   ()];
+			     li [
+				pcdata (s_ "Click"); 
+				img ~src: (make_uri ~service:(Eliom_service.static_dir ()) ["img";"info.svg"])
+						    ~alt:(s_ "Info icon") ~a:[a_class ["icon"]] ();
+				pcdata (s_ "icons to get more info about particular items")] 
 			      ];
 			];
 			 a ~service:question_service ~a:[a_class ["next-btn"]] [pcdata (s_ "Start Here")] ();

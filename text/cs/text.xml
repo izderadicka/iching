@@ -171,7 +171,6 @@
 <text>Hexagram no.%d</text>
 <trans>Hexagram č.%d</trans>
 </term>
-<!-- Added on 20150101 -->
 <term type="s">
 <text>Application Error</text>
 <trans>Chyba aplikace</trans>
@@ -219,5 +218,26 @@
 <term type="s">
 <text> language and web framework </text>
 <trans> jazyce and web frameworku </trans>
+</term>
+<!-- Added on 20150107 -->
+<term type="s">
+<text>Free</text>
+<trans>Zdarma</trans>
+</term>
+<term type="s">
+<text>Online</text>
+<trans>Online</trans>
+</term>
+<term type="s">
+<text>Click</text>
+<trans>Klikněte na</trans>
+</term>
+<term type="s">
+<text>Info icon</text>
+<trans>Info ikona</trans>
+</term>
+<term type="s">
+<text>icons to get more info about particular items</text>
+<trans>ikony pro více informací o jednotlivých výrocích</trans>
 </term>
 </text>

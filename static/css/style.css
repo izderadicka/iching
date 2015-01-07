@@ -294,3 +294,8 @@ ol.instructions {
   list-style-position:  inside;
   padding: 0;
 }
+
+img.icon {
+  width: 2em;
+  vertical-align: middle;
+}

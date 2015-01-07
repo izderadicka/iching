@@ -28,6 +28,18 @@
 <trans>brought to you by</trans>
 </term>
 <term type="s">
+<text>I Ching</text>
+<trans>I Ching</trans>
+</term>
+<term type="s">
+<text>Free</text>
+<trans>Free</trans>
+</term>
+<term type="s">
+<text>Online</text>
+<trans>Online</trans>
+</term>
+<term type="s">
 <text>Application Error</text>
 <trans>Application Error</trans>
 </term>
@@ -100,6 +112,10 @@
 <trans>The Image</trans>
 </term>
 <term type="s">
+<text>Language: </text>
+<trans>Language: </trans>
+</term>
+<term type="s">
 <text>Redirecting to stored result  </text>
 <trans>Redirecting to stored result  </trans>
 </term>
@@ -124,20 +140,12 @@
 <trans>New Question</trans>
 </term>
 <term type="s">
-<text>Language: </text>
-<trans>Language: </trans>
-</term>
-<term type="s">
 <text>Yin - Yang Counter</text>
 <trans>Yin - Yang Counter</trans>
 </term>
 <term type="s">
 <text>I Ching - Book of Changes</text>
 <trans>I Ching - Book of Changes</trans>
-</term>
-<term type="s">
-<text>I Ching</text>
-<trans>I Ching</trans>
 </term>
 <term type="s">
 <text>Book of Changes</text>
@@ -186,6 +194,18 @@
 <term type="s">
 <text>hexagrams</text>
 <trans>hexagrams</trans>
+</term>
+<term type="s">
+<text>Click</text>
+<trans>Click</trans>
+</term>
+<term type="s">
+<text>Info icon</text>
+<trans>Info icon</trans>
+</term>
+<term type="s">
+<text>icons to get more info about particular items</text>
+<trans>icons to get more info about particular items</trans>
 </term>
 <term type="s">
 <text>Start Here</text>

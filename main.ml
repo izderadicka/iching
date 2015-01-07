@@ -244,13 +244,15 @@ let footer =
 )
 in
 let header_title ,body_cont = header, (body@footer) in
-Eliom_tools.F.html ~title 
+let open F in
+Eliom_tools.F.html ~title:header_title 
 		   ~css:[["css";"style.css"]]
 		   ~js:[["js";"custom.js"]]
-		   ~other_head:[F.meta ~a:[F.a_name "viewport"; 
-			  F.a_content "width=device-width, initial-scale=1.0 user-scalable=false" ] ()]
-		   F.(body
-			      ([h1 [pcdata header_title]]@body_cont))
+		   ~other_head:[meta ~a:[a_name "viewport"; 
+			  a_content "width=device-width, initial-scale=1.0 user-scalable=false"] ();
+			  meta ~a:[a_name "keywords"; a_content (String.concat "," [(s_ "I Ching");
+				    (s_ "Free");(s_ "Online")])] ()]
+		   (body ([h1 [pcdata header_title]]@body_cont))
 
 let error_page ~header msg =
   make_page ~title: (s_ "Application Error") ~header  [F.p ~a:[F.a_class ["error_msg";"centered"]] 
