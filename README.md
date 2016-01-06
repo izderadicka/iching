@@ -10,12 +10,14 @@ Prerequisites
 -------------
 
 ```
-apt-add-repository ppa:avsm/ppa 
+apt-get install -y software-properties-common
+apt-add-repository -y ppa:avsm/ppa 
 apt-get update
-apt-get install ocaml opam camlp4 camlp4-extra pkg-config libgdbm-dev libpcre3-dev libcairo2-dev libsqlite3-dev 
+apt-get install -y ocaml opam camlp4 camlp4-extra pkg-config libgdbm-dev libpcre3-dev libcairo2-dev libsqlite3-dev m4 make libssl-dev   
 
-opam install cairo2 uuidm sqlite3
-opam install eliom
+opam init -a
+opam install -y cairo2 uuidm sqlite3
+opam install -y eliom
 
 
 ```
