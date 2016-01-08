@@ -26,10 +26,19 @@ Install And Run
 ---------------
 
 ```
+#Check and edit Makefile.options to customize build and deployment
 make all
 make install.opt
 
 ocsigenserver -c /usr/local/etc/iching/iching.conf
+```
+
+Docker
+------
+There is also [Dockerfile](https://github.com/izderadicka/iching/blob/master/Dockerfile) - so you can easily run in docker container, download it to some directory and run :
+```
+ docker build -t iching .
+ docker run --name iching -p 8088:8088 iching
 ```
 
 License
