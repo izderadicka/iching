@@ -1,0 +1,6 @@
+#!/bin/bash
+
+eval `opam config env`
+
+opam install -y camlp4
+

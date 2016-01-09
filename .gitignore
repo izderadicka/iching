@@ -14,7 +14,8 @@ _deps
 _build
 *.byte
 \#*#
-.*
+.emacs*
+.depend
 local
 resources
 notes
