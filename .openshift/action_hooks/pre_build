@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# script to install pcre on openshift
+# this can be called in your action_hooks to setup pcre
+# useful if you want to use regex in uwsgi, or nginx
+#
+# NOTE: 
+# If scaling, make sure you call this in your pre_start* hook, 
+# ${OPENSHIFT_DATA_DIR} is not copied over for a new gear
+
+
+PCRE_VERSION="8.33"
+PCRE_NAME="pcre-${PCRE_VERSION}"
+PCRE_TARBALL=${PCRE_NAME}.tar.gz
+PCRE_SRC="ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/${PCRE_TARBALL}"
+
+function setup_env()
+{
+    if [ -z $(echo $PATH | grep "$OPENSHIFT_DATA_DIR/bin") ]; then
+        export PATH=$PATH:${OPENSHIFT_DATA_DIR}/bin
+        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${OPENSHIFT_DATA_DIR}/lib
+    fi
+}
+function cleanup()
+{
+    rm -rf ${OPENSHIFT_DATA_DIR}/${PCRE_TARBALL}
+    rm -rf ${OPENSHIFT_DATA_DIR}/${PCRE_NAME}
+}
+
+function install_pcre()
+{
+    cd ${OPENSHIFT_DATA_DIR} #AC
+    wget ${PCRE_SRC}
+    tar xvf ${PCRE_TARBALL}
+    cd ${PCRE_NAME}
+    ./configure --prefix=${OPENSHIFT_DATA_DIR}
+    make
+    make install
+}
+
+if [ ! -f "$OPENSHIFT_DATA_DIR/bin/pcre-config" ]; then
+    install_pcre
+    setup_env
+    cleanup
+fi
