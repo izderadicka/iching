@@ -3,4 +3,9 @@
 eval `opam config env`
 
 opam install -y camlp4
+opam install -y cairo2 uuidm sqlite3
+opam install -y eliom
 
+cd $OPENSHIFT_REPO_DIR
+make opt
+make install.opt
