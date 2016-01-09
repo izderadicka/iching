@@ -2,6 +2,7 @@
 
 eval `opam config env`
 
+opam depext conf-libpcre.1
 opam install -y camlp4
 opam install -y cairo2 uuidm sqlite3
 opam install -y eliom
