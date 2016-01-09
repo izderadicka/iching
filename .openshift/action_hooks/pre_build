@@ -9,10 +9,10 @@
 # ${OPENSHIFT_DATA_DIR} is not copied over for a new gear
 
 
-PCRE_VERSION="8.33"
+PCRE_VERSION="8.35"
 PCRE_NAME="pcre-${PCRE_VERSION}"
 PCRE_TARBALL=${PCRE_NAME}.tar.gz
-PCRE_SRC="ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/${PCRE_TARBALL}"
+PCRE_SRC="http://sourceforge.net/projects/pcre/files/pcre/$PCRE_VERSION/$PCRE_TARBALL"
 
 function setup_env()
 {
