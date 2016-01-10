@@ -11,4 +11,4 @@ opam install -y eliom
 
 cd $OPENSHIFT_REPO_DIR
 make opt
-PREFIX=${OPENSHIFT_DATA_DIR} make install.opt
+make PREFIX=${OPENSHIFT_DATA_DIR} install.opt
