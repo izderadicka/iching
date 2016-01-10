@@ -2,9 +2,7 @@
 
 eval `opam config env`
 
-export PATH=$PATH:${OPENSHIFT_DATA_DIR}bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${OPENSHIFT_DATA_DIR}lib
-export CPATH=${OPENSHIFT_DATA_DIR}include
+export  PKG_CONFIG_PATH=${OPENSHIFT_DATA_DIR}lib/pkgconfig
 
 opam install -y camlp4
 opam install -y cairo2 uuidm sqlite3
