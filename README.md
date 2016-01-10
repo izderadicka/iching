@@ -41,6 +41,19 @@ There is also [Dockerfile](https://github.com/izderadicka/iching/blob/master/Doc
  docker run --name iching -p 8088:8088 iching
 ```
 
+Openshift
+---------
+You can also easily deploy on openshift:
+```
+#set rhc as described in openshift docs
+rhc app create --no-git iching https://raw.githubusercontent.com/izderadicka/ocaml-openshift2/master/metadata/manifest.yml
+# note the app git repo url
+git add remote openshift app_openshift_git_repo_url
+git pull openshift
+# resolve eventual conflicts
+git push openshift
+```
+
 License
 -------
 
