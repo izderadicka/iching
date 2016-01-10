@@ -10,5 +10,5 @@ opam install -y cairo2 uuidm sqlite3
 opam install -y eliom
 
 cd $OPENSHIFT_REPO_DIR
-make opt
+make PORT="${OPENSHIFT_OCAML_IP}:${OPENSHIFT_OCAML_PORT}" opt
 make PREFIX=${OPENSHIFT_DATA_DIR} install.opt
