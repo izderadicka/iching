@@ -1,0 +1,5 @@
+#!/bin/bash
+eval `opam config env`
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${OPENSHIFT_DATA_DIR}/lib
+ocsigenserver.opt -c ${OPENSHIFT_DATA_DIR}/etc/iching/iching.conf
+
