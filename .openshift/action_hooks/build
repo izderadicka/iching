@@ -8,9 +8,9 @@ export PATH=$PATH:${OPENSHIFT_DATA_DIR}bin
 opam install -y camlp4
 opam install -y cairo2 uuidm sqlite3
 
+opam pin -y add reactiveData https://github.com/ocsigen/reactiveData.git &&\
 opam pin -y add tyxml --dev-repo &&\
 opam pin -y add js_of_ocaml --dev-repo &&\
-opam pin -y add reactiveData https://github.com/ocsigen/reactiveData.git &&\
 opam pin -y add eliom --dev-repo
 
 cd $OPENSHIFT_REPO_DIR
