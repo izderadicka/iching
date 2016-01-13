@@ -100,11 +100,19 @@ let launch_coins  main_elt progress_bar remaining coins throws_area next_btn =
 			(fun evt _ ->
 			  let x,y = evt##clientX, evt##clientY in
 			  return (throw_coins (x,y)) 
-			) 
-  in
+			) in
+
+  let _touch_start =  Lwt_js_events.touchstarts
+			area
+			(fun evt _ -> 
+			 Dom.preventDefault evt;
+			 return ()
+			) in
+
   let _touch_thread = Lwt_js_events.touchmoves 
 			area
 			(fun evt _ ->
+			 Dom.preventDefault evt;
 			 let l =  evt##changedTouches in
 			 let n =  l##length in
 			 let rec proc_touches i =
@@ -117,7 +125,6 @@ let launch_coins  main_elt progress_bar remaining coins throws_area next_btn =
 			 in
 			 shake_coins coins;
 			 proc_touches 0;
-			 Dom.preventDefault evt;
 			 return ()
 			)
   in

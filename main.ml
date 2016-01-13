@@ -210,9 +210,10 @@ let question_form () =
     ~service: save_question_action
     (fun  q_param ->
      let open F in
+     let text_area_id = (Eliom_parameter.string_of_param_name q_param) ^ "_id" in 
      [ div ~a:[a_class ["question-form";"centered"]] 
-		       [label ~a:[a_for q_param] [pcdata (s_ "Enter your question below:")];
-			textarea ~name:q_param ~a:[a_class ["question"]] ()];
+		       [label ~a:[a_for text_area_id] [pcdata (s_ "Enter your question below:")];
+			textarea ~name:q_param ~a:[a_class ["question"]; a_id text_area_id] ()];
        input ~input_type:`Submit ~value:(s_ "Next") ~a:[a_class ["next-btn"]; a_id "question-submit_btn"] ()
      ]) ()
 			     

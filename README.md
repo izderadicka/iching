@@ -49,7 +49,7 @@ You can also easily deploy on openshift:
 rhc app create --no-git iching https://raw.githubusercontent.com/izderadicka/ocaml-openshift2/master/metadata/manifest.yml
 # note the app git repo url
 git add remote openshift app_openshift_git_repo_url
-git pull openshift
+git pull openshift master
 # resolve eventual conflicts
 git push openshift
 ```

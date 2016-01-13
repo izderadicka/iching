@@ -8,7 +8,11 @@ RUN apt-get install -y software-properties-common &&\
 
 RUN opam init -a &&\
     opam install -y cairo2 uuidm sqlite3 &&\
-    opam install -y eliom 
+    opam pin -y add js_of_ocaml --dev-repo &&\
+    opam pin -y add reactiveData https://github.com/ocsigen/reactiveData.git &&\
+    opam pin -y add tyxml --dev-repo &&\
+    opam pin -y add eliom --dev-repo
+
 
 RUN git clone --depth 1 https://github.com/izderadicka/iching.git /tmp/iching &&\
     cd /tmp/iching &&\
