@@ -206,29 +206,30 @@ let make_coins_area () =
   coins_area, remaining, coins
 
 let question_form () =
-  D.post_form 
+  D.Form.post_form 
     ~service: save_question_action
     (fun  q_param ->
      let open F in
      let text_area_id = (Eliom_parameter.string_of_param_name q_param) ^ "_id" in 
      [ div ~a:[a_class ["question-form";"centered"]] 
 		       [label ~a:[a_for text_area_id] [pcdata (s_ "Enter your question below:")];
-			textarea ~name:q_param ~a:[a_class ["question"]; a_id text_area_id] ()];
-       input ~input_type:`Submit ~value:(s_ "Next") ~a:[a_class ["next-btn"]; a_id "question-submit_btn"] ()
+			Form.textarea ~name:q_param ~a:[a_class ["question"]; a_id text_area_id] ()];
+      Form.input ~input_type:`Submit ~value:(s_ "Next") ~a:[a_class ["next-btn"]; a_id "question-submit_btn"] 
+      Form.string
      ]) ()
 			     
 let hexa_form () = 
-  D.post_form 
+  D.Form.post_form 
     ~a:[D.a_style "display:none"]
     ~service: save_hexa_action
     (fun hl ->
      let open F in 
      (hl.Eliom_parameter.it (fun name lbl init -> 
-			    (int_input ~input_type:`Hidden ~name ~a:[a_id lbl] ()) :: init
+			    (Form.input ~input_type:`Hidden ~name ~a:[a_id lbl] Form.int) :: init
 			   )
 			   (List.map (fun n -> "hexa_" ^ (string_of_int n)) (Util.range 6))
 			   []
-     ) @ [input ~input_type:`Submit ~a:[a_class ["next-btn"]] ~value:(s_ "Show Oracle") () ]
+     ) @ [Form.input ~input_type:`Submit ~a:[a_class ["next-btn"]] ~value:(s_ "Show Oracle") Form.string ]
     )
     None
 
@@ -277,10 +278,10 @@ let break_lines txt =
 let save_result_form id = 
 let open F in
 match id with 
-|None -> post_form 
+|None -> Form.post_form 
 	   ~service:save_result_service 
 	   (fun () ->
-	    [string_input ~input_type:`Submit ~a:[a_class ["next-btn"]] ~value:(s_ "Remember It") ()]
+	    [Form.input ~input_type:`Submit ~a:[a_class ["next-btn"]] ~value:(s_ "Remember It") Form.string]
 	   )
 	   None
 |Some _ -> F.div []

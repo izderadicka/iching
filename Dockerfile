@@ -1,29 +1,48 @@
 FROM ubuntu:14.04
 MAINTAINER ivan.zderadicka@gmail.com
 
-RUN apt-get install -y software-properties-common &&\
+ENV http_proxy=http://emea-proxy.uk.oracle.com:80
+ENV https_proxy=http://emea-proxy.uk.oracle.com:80
+
+RUN apt-get update &&\
+    apt-get install -y software-properties-common &&\
+    apt-get install -y pkg-config libgdbm-dev libpcre3-dev libcairo2-dev libsqlite3-dev m4 make libssl-dev libgmp-dev  &&\
     apt-add-repository -y ppa:avsm/ppa &&\
     apt-get update &&\
-    apt-get install -y ocaml opam camlp4 camlp4-extra pkg-config libgdbm-dev libpcre3-dev libcairo2-dev libsqlite3-dev m4 make libssl-dev   
+    apt-get install -y opam
 
-RUN opam init -a &&\
-    opam install -y cairo2 uuidm sqlite3 &&\
-    opam pin -y add js_of_ocaml --dev-repo &&\
-    opam pin -y add reactiveData https://github.com/ocsigen/reactiveData.git &&\
-    opam pin -y add tyxml --dev-repo &&\
-    opam pin -y add eliom --dev-repo
+RUN adduser iching &&\
+    mkdir /tmp/iching &&\
+    chown iching:0 /tmp/iching &&\
+    mkdir /opt/iching &&\
+    chown iching:0 /opt/iching
+
+ENV TMPDIR=/tmp
+USER iching
+
+RUN opam init --compiler=4.02.3 &&\
+    eval `opam config env` &&\
+    opam install -y camlp4 "cairo2<0.5" uuidm sqlite3 "eliom=5.0.0"
 
 
-RUN git clone --depth 1 https://github.com/izderadicka/iching.git /tmp/iching &&\
-    cd /tmp/iching &&\
-    . /root/.opam/opam-init/init.sh > /dev/null 2> /dev/null &&\
+COPY / /tmp/iching
+USER root
+RUN chown -R iching:iching /tmp/iching
+USER iching
+
+RUN cd /tmp/iching &&\
+    export PREFIX=/opt/iching/ &&\
+    eval `opam config env` &&\
+    make clean &&\
     make opt &&\
     make install.opt &&\
-    rm -r /tmp/iching
+    rm -rf /tmp/iching
+
+RUN chmod -R a+rw /opt/iching/var
 
 EXPOSE 8088
 
-VOLUME ["/usr/local/var/log/iching", "/usr/local/var/data/iching/"]
+VOLUME ["/opt/iching/var/log/iching", "/opt/iching/var/data/iching/"]
 
-CMD . /root/.opam/opam-init/init.sh && ocsigenserver.opt -c /usr/local/etc/iching/iching.conf
+CMD CAML_LD_LIBRARY_PATH="/home/iching/.opam/4.02.3/lib/stublibs" /home/iching/.opam/4.02.3/bin/ocsigenserver.opt -c /opt/iching/etc/iching/iching.conf 
 
