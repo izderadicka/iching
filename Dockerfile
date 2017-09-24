@@ -1,9 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER ivan.zderadicka@gmail.com
 
-ENV http_proxy=http://emea-proxy.uk.oracle.com:80
-ENV https_proxy=http://emea-proxy.uk.oracle.com:80
-
 RUN apt-get update &&\
     apt-get install -y software-properties-common &&\
     apt-get install -y pkg-config libgdbm-dev libpcre3-dev libcairo2-dev libsqlite3-dev m4 make libssl-dev libgmp-dev  &&\
